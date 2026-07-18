@@ -1,0 +1,7 @@
+vendor_id,application,dependency_type,avg_turnaround_hours,open_items,risk_level
+VEND-01,Advisor Portal,Access,139,12,Low
+VEND-02,Trade Support,API,87,9,Medium
+VEND-03,Public Finance CRM,API,62,10,High
+VEND-04,Client Reporting,Release Signoff,64,12,Medium
+VEND-05,Compliance Workflow,Data Feed,95,6,Medium
+VEND-06,Data Entitlements,Release Signoff,78,4,Low

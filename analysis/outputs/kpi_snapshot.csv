@@ -1,0 +1,7 @@
+metric,value
+issue_count,420
+open_issue_count,352
+sla_breach_rate,0.361
+avg_hours_open,62.5
+vendor_blocked_share,0.233
+avg_customer_effort_score,4.44

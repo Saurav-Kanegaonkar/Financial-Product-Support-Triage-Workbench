@@ -1,0 +1,97 @@
+test_request_id,release_id,application,test_type,pass_rate,open_defects,ready_for_release
+TEST-001,REL-03,Public Finance CRM,Vendor Validation,0.849,5,0
+TEST-002,REL-02,Client Reporting,UAT,0.883,1,0
+TEST-003,REL-02,Public Finance CRM,Data Validation,0.808,5,0
+TEST-004,REL-04,Compliance Workflow,Regression,0.828,3,0
+TEST-005,REL-07,Advisor Portal,Vendor Validation,0.868,3,0
+TEST-006,REL-07,Client Reporting,Vendor Validation,0.776,6,0
+TEST-007,REL-03,Data Entitlements,UAT,0.867,1,0
+TEST-008,REL-08,Advisor Portal,Data Validation,0.92,2,1
+TEST-009,REL-08,Trade Support,Vendor Validation,0.808,2,0
+TEST-010,REL-02,Data Entitlements,Data Validation,0.978,0,1
+TEST-011,REL-01,Advisor Portal,Regression,0.808,5,0
+TEST-012,REL-01,Trade Support,Regression,0.941,1,1
+TEST-013,REL-07,Compliance Workflow,Data Validation,0.842,2,0
+TEST-014,REL-06,Public Finance CRM,Vendor Validation,0.773,6,0
+TEST-015,REL-06,Advisor Portal,UAT,0.968,0,1
+TEST-016,REL-07,Trade Support,Vendor Validation,0.885,2,0
+TEST-017,REL-01,Advisor Portal,Vendor Validation,0.737,6,0
+TEST-018,REL-01,Trade Support,Data Validation,0.75,4,0
+TEST-019,REL-06,Data Entitlements,Data Validation,0.91,1,1
+TEST-020,REL-04,Data Entitlements,Regression,0.83,3,0
+TEST-021,REL-07,Public Finance CRM,Data Validation,0.848,2,0
+TEST-022,REL-03,Trade Support,UAT,0.762,8,0
+TEST-023,REL-03,Data Entitlements,Data Validation,0.739,2,0
+TEST-024,REL-02,Trade Support,Data Validation,0.898,1,0
+TEST-025,REL-07,Compliance Workflow,Regression,0.952,1,1
+TEST-026,REL-08,Client Reporting,Vendor Validation,0.843,3,0
+TEST-027,REL-01,Compliance Workflow,Data Validation,0.781,4,0
+TEST-028,REL-05,Client Reporting,Vendor Validation,0.949,0,1
+TEST-029,REL-08,Data Entitlements,Vendor Validation,0.729,2,0
+TEST-030,REL-02,Trade Support,Vendor Validation,0.751,5,0
+TEST-031,REL-02,Trade Support,Data Validation,0.846,1,0
+TEST-032,REL-02,Data Entitlements,Vendor Validation,0.89,3,0
+TEST-033,REL-01,Client Reporting,Data Validation,0.886,2,0
+TEST-034,REL-06,Client Reporting,Vendor Validation,0.858,3,0
+TEST-035,REL-05,Public Finance CRM,Regression,0.979,0,1
+TEST-036,REL-05,Data Entitlements,Vendor Validation,0.73,7,0
+TEST-037,REL-03,Compliance Workflow,UAT,0.737,6,0
+TEST-038,REL-01,Public Finance CRM,Data Validation,0.897,1,0
+TEST-039,REL-02,Public Finance CRM,Vendor Validation,0.742,6,0
+TEST-040,REL-05,Public Finance CRM,UAT,0.756,3,0
+TEST-041,REL-03,Compliance Workflow,Regression,0.92,2,1
+TEST-042,REL-03,Public Finance CRM,Regression,0.898,1,0
+TEST-043,REL-01,Public Finance CRM,UAT,0.851,4,0
+TEST-044,REL-03,Client Reporting,Data Validation,0.981,0,1
+TEST-045,REL-08,Data Entitlements,Regression,0.928,1,1
+TEST-046,REL-06,Advisor Portal,Vendor Validation,0.777,6,0
+TEST-047,REL-01,Trade Support,Data Validation,0.924,0,1
+TEST-048,REL-08,Data Entitlements,Regression,0.828,2,0
+TEST-049,REL-07,Client Reporting,Vendor Validation,0.823,5,0
+TEST-050,REL-07,Advisor Portal,Vendor Validation,0.759,8,0
+TEST-051,REL-07,Data Entitlements,Vendor Validation,0.97,0,1
+TEST-052,REL-01,Advisor Portal,Vendor Validation,0.98,0,1
+TEST-053,REL-05,Public Finance CRM,Vendor Validation,0.978,0,1
+TEST-054,REL-05,Data Entitlements,Data Validation,0.792,2,0
+TEST-055,REL-04,Data Entitlements,Regression,0.844,4,0
+TEST-056,REL-03,Public Finance CRM,UAT,0.86,4,0
+TEST-057,REL-02,Advisor Portal,Data Validation,0.902,3,0
+TEST-058,REL-08,Public Finance CRM,Regression,0.746,2,0
+TEST-059,REL-04,Advisor Portal,UAT,0.916,1,1
+TEST-060,REL-04,Compliance Workflow,UAT,0.887,1,0
+TEST-061,REL-02,Compliance Workflow,Regression,0.911,0,1
+TEST-062,REL-03,Advisor Portal,Regression,0.822,5,0
+TEST-063,REL-02,Data Entitlements,Data Validation,0.788,4,0
+TEST-064,REL-07,Data Entitlements,Vendor Validation,0.969,0,1
+TEST-065,REL-02,Public Finance CRM,UAT,0.789,6,0
+TEST-066,REL-01,Public Finance CRM,Vendor Validation,0.823,3,0
+TEST-067,REL-08,Trade Support,Data Validation,0.768,2,0
+TEST-068,REL-02,Trade Support,Data Validation,0.768,5,0
+TEST-069,REL-02,Client Reporting,Vendor Validation,0.779,6,0
+TEST-070,REL-02,Compliance Workflow,Vendor Validation,0.748,2,0
+TEST-071,REL-08,Trade Support,UAT,0.93,0,1
+TEST-072,REL-07,Public Finance CRM,Regression,0.972,0,1
+TEST-073,REL-01,Compliance Workflow,Data Validation,0.909,1,1
+TEST-074,REL-02,Compliance Workflow,Regression,0.849,3,0
+TEST-075,REL-08,Advisor Portal,Vendor Validation,0.721,8,0
+TEST-076,REL-07,Advisor Portal,UAT,0.81,3,0
+TEST-077,REL-06,Advisor Portal,Data Validation,0.819,6,0
+TEST-078,REL-04,Trade Support,UAT,0.925,1,1
+TEST-079,REL-04,Public Finance CRM,Data Validation,0.981,0,1
+TEST-080,REL-06,Client Reporting,UAT,0.962,1,1
+TEST-081,REL-04,Trade Support,UAT,0.959,0,1
+TEST-082,REL-04,Client Reporting,Data Validation,0.772,7,0
+TEST-083,REL-05,Client Reporting,Data Validation,0.737,6,0
+TEST-084,REL-01,Public Finance CRM,UAT,0.981,0,1
+TEST-085,REL-01,Client Reporting,UAT,0.811,5,0
+TEST-086,REL-08,Data Entitlements,Regression,0.777,6,0
+TEST-087,REL-02,Advisor Portal,Regression,0.92,1,1
+TEST-088,REL-08,Compliance Workflow,UAT,0.852,1,0
+TEST-089,REL-03,Advisor Portal,Regression,0.786,5,0
+TEST-090,REL-02,Client Reporting,Regression,0.891,1,0
+TEST-091,REL-02,Advisor Portal,Data Validation,0.946,0,1
+TEST-092,REL-04,Advisor Portal,Regression,0.881,3,0
+TEST-093,REL-07,Public Finance CRM,UAT,0.835,5,0
+TEST-094,REL-03,Public Finance CRM,Regression,0.983,0,1
+TEST-095,REL-03,Public Finance CRM,UAT,0.926,1,1
+TEST-096,REL-07,Trade Support,Vendor Validation,0.753,2,0
