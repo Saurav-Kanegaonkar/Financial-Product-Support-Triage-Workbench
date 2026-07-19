@@ -14,7 +14,7 @@ Rank financial product support issues by business urgency and release risk so a 
 
 ## Scoring Logic
 
-The triage score combines:
+The triage score uses illustrative review weights, not an automated business rule. It combines:
 
 - SLA breach risk from issue age versus target resolution window
 - Severity weighting
@@ -23,6 +23,8 @@ The triage score combines:
 - Customer effort score
 - Vendor blocker flag
 - Release readiness exposure
+
+The score intentionally gives the largest fixed baseline to severity, caps SLA aging so stale lower-severity tickets do not overwhelm true P1 incidents, and then adds recurrence, affected-user, customer-effort, and vendor-blocker pressure to surface issues that need cross-team coordination.
 
 ## Review Questions
 

@@ -22,8 +22,8 @@ Open application issues are rarely comparable at first glance. A P2 defect with 
 ## How The Project Works
 
 1. Generate source-style support operations data with `scripts/generate_data.py`.
-2. Score each issue using severity, SLA breach pressure, recurrence, affected users, customer effort, and vendor blocker status.
-3. Export ranked queues and KPI summaries to `analysis/outputs/`.
+2. Score each issue using illustrative review weights for severity, SLA breach pressure, recurrence, affected users, customer effort, and vendor blocker status.
+3. Export the full ranked queue, an active-only blocker queue, and KPI summaries to `analysis/outputs/`.
 4. Render evidence images into `docs/images/` so the work can be inspected without running the script.
 5. Use `analysis/executive_findings.md` for the stakeholder readout and recommended operating motion.
 
@@ -39,17 +39,21 @@ This chart shows which supported applications concentrate the highest combined s
 
 ![Release readiness risk matrix](docs/images/release-readiness-risk-matrix.png)
 
-This matrix compares pass rate, open defects, and not-ready tests across releases so product support can decide where to escalate before signoff.
+This matrix compares pass-rate gap, open defects, and not-ready tests across releases so product support can decide where to escalate before signoff. Darker color means higher release-readiness risk.
 
 ### Top Upgrade Blockers
 
 ![Top upgrade blockers table](docs/images/top-upgrade-blockers.png)
 
-This ranked table gives a meeting-ready view of the highest-priority issues to review before user group updates and release planning.
+This active-only ranked table gives a meeting-ready view of the highest-priority issues to review before user group updates and release planning.
+
+## Scoring Logic
+
+The triage score is an illustrative review score, not an automated decision rule. It weights P1-P4 severity as the baseline urgency, then adds capped points for SLA age versus target resolution window, recurrence, affected users, customer effort, and vendor-blocked status. The weighting deliberately favors issues that are both operationally stale and externally blocked, because those are the items most likely to need a Product Analyst to coordinate status updates, user-group communication, vendor follow-up, testing, and incremental release planning.
 
 ## What The Analysis Says
 
-- Highest-risk issues tend to combine old SLA age, recurrence, and vendor blockers rather than severity alone.
+- Highest-risk active issues tend to combine old SLA age, recurrence, and vendor blockers rather than severity alone.
 - Release readiness should be reviewed alongside open issue severity, because several high-score blockers connect directly to not-ready tests.
 - The triage score is most useful as a review queue, not an automated decision rule; product owners still need context from user groups and vendors.
 
@@ -90,5 +94,5 @@ The script writes source tables, ranked outputs, KPI summaries, and rendered evi
 ## Caveats And Limitations
 
 - The data is synthetic and designed to represent a realistic support operations workflow, not a real broker-dealer system.
-- SLA thresholds, effort scores, and triage weights are illustrative and should be calibrated against real support history before production use.
+- SLA thresholds, effort scores, and triage weights are illustrative review weights and should be calibrated against real support history before production use.
 - The analysis intentionally stays in a reproducible workbench format rather than a dashboard so the ranking logic remains easy to inspect.

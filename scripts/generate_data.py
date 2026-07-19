@@ -31,12 +31,13 @@ USER_GROUPS = [
     "Sales Support",
 ]
 SEVERITY_WEIGHT = {"P1": 40, "P2": 28, "P3": 14, "P4": 6}
+ACTIVE_STATUSES = {"Open", "In Progress", "Vendor Pending", "Testing"}
 
 
 def write_csv(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -140,6 +141,7 @@ def generate_vendors() -> list[dict]:
 
 
 def score_issue(row: dict) -> float:
+    """Illustrative review score for prioritizing analyst attention."""
     sla_ratio = float(row["hours_open"]) / float(row["sla_hours"])
     score = SEVERITY_WEIGHT[row["severity"]]
     score += min(35, sla_ratio * 12)
@@ -159,7 +161,15 @@ def write_outputs(issues: list[dict], tests: list[dict]) -> None:
         ranked.append(scored)
     ranked.sort(key=lambda row: row["triage_score"], reverse=True)
     write_csv(OUT / "ranked_issue_queue.csv", ranked)
-    write_csv(OUT / "top_25_upgrade_blockers.csv", ranked[:25])
+
+    active_blockers = []
+    for row in ranked:
+        if row["status"] not in ACTIVE_STATUSES:
+            continue
+        blocker = dict(row)
+        blocker["sla_breach_flag"] = blocker.pop("sla_breached")
+        active_blockers.append(blocker)
+    write_csv(OUT / "top_25_upgrade_blockers.csv", active_blockers[:25])
 
     by_release: dict[str, list[dict]] = {}
     for test in tests:
@@ -171,6 +181,7 @@ def write_outputs(issues: list[dict], tests: list[dict]) -> None:
                 "release_id": release_id,
                 "test_requests": len(release_tests),
                 "avg_pass_rate": round(sum(float(t["pass_rate"]) for t in release_tests) / len(release_tests), 3),
+                "pass_rate_gap": round(1 - (sum(float(t["pass_rate"]) for t in release_tests) / len(release_tests)), 3),
                 "open_defects": sum(int(t["open_defects"]) for t in release_tests),
                 "not_ready_tests": sum(1 for t in release_tests if int(t["ready_for_release"]) == 0),
             }
@@ -218,33 +229,44 @@ def write_evidence_images() -> None:
     fig.savefig(IMAGES / "triage-score-by-application.png", dpi=180)
     plt.close(fig)
 
-    heatmap_data = releases.set_index("release_id")[["avg_pass_rate", "open_defects", "not_ready_tests"]]
+    heatmap_data = releases.set_index("release_id")[["pass_rate_gap", "open_defects", "not_ready_tests"]]
     normalized = heatmap_data.copy()
+    normalized["pass_rate_gap"] = normalized["pass_rate_gap"] / max(0.001, normalized["pass_rate_gap"].max())
     normalized["open_defects"] = normalized["open_defects"] / max(1, normalized["open_defects"].max())
     normalized["not_ready_tests"] = normalized["not_ready_tests"] / max(1, normalized["not_ready_tests"].max())
 
     fig, ax = plt.subplots(figsize=(9, 5))
     image = ax.imshow(normalized, cmap="YlOrRd", aspect="auto")
     ax.set_title("Release Readiness Risk Matrix", fontsize=15, weight="bold")
-    ax.set_xticks(range(len(normalized.columns)), ["Pass rate", "Open defects", "Tests not ready"])
+    ax.set_xticks(range(len(normalized.columns)), ["Pass-rate gap", "Open defects", "Tests not ready"])
     ax.set_yticks(range(len(normalized.index)), normalized.index)
     for row in range(len(heatmap_data.index)):
         for col, column in enumerate(heatmap_data.columns):
             value = heatmap_data.iloc[row, col]
-            label = f"{value:.3f}" if column == "avg_pass_rate" else str(int(value))
+            label = f"{value:.1%}" if column == "pass_rate_gap" else str(int(value))
             ax.text(col, row, label, ha="center", va="center", color="#222", fontsize=9)
+    ax.text(
+        0.5,
+        -0.16,
+        "Darker color means higher release-readiness risk: larger pass-rate gap, more open defects, or more not-ready tests.",
+        transform=ax.transAxes,
+        ha="center",
+        fontsize=8,
+        color="#444",
+    )
     fig.colorbar(image, ax=ax, fraction=0.046, pad=0.04)
     fig.tight_layout()
     fig.savefig(IMAGES / "release-readiness-risk-matrix.png", dpi=180)
     plt.close(fig)
 
-    table_cols = ["issue_id", "application", "severity", "status", "triage_score", "sla_breached"]
-    table_data = top_blockers[table_cols].head(10)
+    table_cols = ["issue_id", "application", "severity", "status", "triage_score", "sla_breach_flag"]
+    table_data = top_blockers[table_cols].head(10).copy()
+    table_data["sla_breach_flag"] = table_data["sla_breach_flag"].map({1: "Yes", 0: "No"})
     fig, ax = plt.subplots(figsize=(12, 4.8))
     ax.axis("off")
     table = ax.table(
         cellText=table_data.values,
-        colLabels=["Issue", "Application", "Severity", "Status", "Score", "SLA"],
+        colLabels=["Issue", "Application", "Severity", "Status", "Score", "SLA Breached"],
         loc="center",
         cellLoc="left",
         colLoc="left",

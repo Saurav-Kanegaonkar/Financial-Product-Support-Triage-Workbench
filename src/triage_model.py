@@ -4,7 +4,13 @@ SEVERITY_WEIGHT = {"P1": 40, "P2": 28, "P3": 14, "P4": 6}
 
 
 def triage_score(issue: dict) -> float:
-    """Score one support issue for product analyst review priority."""
+    """Score one support issue for product analyst review priority.
+
+    Weights are illustrative review weights: severity establishes baseline
+    business urgency, SLA pressure captures aging, recurrence and affected-user
+    terms raise systemic impact, customer effort represents experience cost,
+    and vendor-blocked issues receive an escalation premium.
+    """
     sla_ratio = float(issue["hours_open"]) / float(issue["sla_hours"])
     score = SEVERITY_WEIGHT[issue["severity"]]
     score += min(35, sla_ratio * 12)

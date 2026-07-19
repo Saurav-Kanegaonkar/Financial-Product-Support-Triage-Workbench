@@ -62,3 +62,18 @@ One row per vendor dependency.
 - `avg_turnaround_hours`: Vendor turnaround time.
 - `open_items`: Open dependency count.
 - `risk_level`: Dependency risk label.
+
+## `analysis/outputs/top_25_upgrade_blockers.csv`
+
+One row per active issue selected for blocker review.
+
+- `sla_breach_flag`: Boolean field showing whether `hours_open` exceeds the issue's `sla_hours` target.
+
+## `analysis/outputs/release_readiness_summary.csv`
+
+One row per release.
+
+- `avg_pass_rate`: Average test pass rate for the release.
+- `pass_rate_gap`: `1 - avg_pass_rate`; used so release-readiness color means higher risk when the value is higher.
+- `open_defects`: Total open defects across release test requests.
+- `not_ready_tests`: Count of test requests not ready for release.
