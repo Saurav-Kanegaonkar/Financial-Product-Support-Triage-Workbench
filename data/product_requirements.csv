@@ -1,61 +1,121 @@
 requirement_id,application,source_issue_count,priority,business_owner,acceptance_criteria_count,planned_increment
-REQ-001,Trade Support,16,Medium,Sales Support,3,Increment 2
-REQ-002,Data Entitlements,16,Medium,Sales Support,3,Increment 2
-REQ-003,Client Reporting,6,Medium,Compliance,3,Increment 2
-REQ-004,Compliance Workflow,16,Low,Financial Advisors,6,Increment 1
-REQ-005,Public Finance CRM,10,Medium,Financial Advisors,8,Increment 1
-REQ-006,Advisor Portal,4,Medium,Public Finance,3,Increment 4
-REQ-007,Compliance Workflow,18,Low,Compliance,7,Increment 4
-REQ-008,Trade Support,3,Low,Sales Support,9,Increment 2
-REQ-009,Trade Support,7,High,Operations,6,Increment 3
-REQ-010,Data Entitlements,11,Medium,Compliance,5,Increment 2
-REQ-011,Trade Support,5,Low,Operations,7,Increment 3
-REQ-012,Client Reporting,2,Medium,Compliance,7,Increment 1
-REQ-013,Trade Support,17,High,Compliance,6,Increment 4
-REQ-014,Advisor Portal,16,Medium,Operations,4,Increment 3
-REQ-015,Advisor Portal,8,High,Operations,8,Increment 3
-REQ-016,Trade Support,3,Low,Sales Support,9,Increment 3
-REQ-017,Advisor Portal,12,Critical,Compliance,4,Increment 2
-REQ-018,Compliance Workflow,11,Medium,Sales Support,7,Increment 2
-REQ-019,Data Entitlements,16,Medium,Operations,3,Increment 3
-REQ-020,Public Finance CRM,12,Low,Operations,9,Increment 4
-REQ-021,Public Finance CRM,4,Medium,Operations,8,Increment 3
-REQ-022,Compliance Workflow,12,Medium,Financial Advisors,8,Increment 2
-REQ-023,Advisor Portal,3,Medium,Sales Support,3,Increment 4
-REQ-024,Client Reporting,11,Medium,Public Finance,5,Increment 3
-REQ-025,Compliance Workflow,6,Medium,Sales Support,8,Increment 4
-REQ-026,Trade Support,17,Low,Financial Advisors,8,Increment 3
-REQ-027,Advisor Portal,8,High,Compliance,8,Increment 1
-REQ-028,Compliance Workflow,8,Low,Compliance,3,Increment 3
-REQ-029,Compliance Workflow,13,Medium,Financial Advisors,3,Increment 2
-REQ-030,Public Finance CRM,11,Medium,Public Finance,5,Increment 3
-REQ-031,Advisor Portal,2,Medium,Public Finance,6,Increment 1
-REQ-032,Trade Support,7,High,Public Finance,8,Increment 4
-REQ-033,Advisor Portal,17,Medium,Compliance,4,Increment 4
-REQ-034,Client Reporting,12,Medium,Compliance,8,Increment 1
-REQ-035,Public Finance CRM,18,Medium,Public Finance,7,Increment 1
-REQ-036,Compliance Workflow,8,Medium,Public Finance,3,Increment 2
-REQ-037,Advisor Portal,10,High,Compliance,8,Increment 2
-REQ-038,Trade Support,14,Medium,Public Finance,8,Increment 3
-REQ-039,Public Finance CRM,3,Medium,Compliance,4,Increment 3
-REQ-040,Public Finance CRM,16,High,Public Finance,4,Increment 1
-REQ-041,Advisor Portal,13,Medium,Operations,6,Increment 1
-REQ-042,Compliance Workflow,17,High,Public Finance,6,Increment 3
-REQ-043,Trade Support,12,Medium,Operations,9,Increment 2
-REQ-044,Data Entitlements,8,Critical,Compliance,8,Increment 1
-REQ-045,Public Finance CRM,2,Low,Sales Support,9,Increment 1
-REQ-046,Client Reporting,12,Low,Operations,7,Increment 3
-REQ-047,Compliance Workflow,2,Medium,Financial Advisors,5,Increment 2
-REQ-048,Public Finance CRM,8,High,Public Finance,9,Increment 4
-REQ-049,Public Finance CRM,5,High,Public Finance,3,Increment 1
-REQ-050,Advisor Portal,18,High,Public Finance,7,Increment 3
-REQ-051,Trade Support,10,Low,Public Finance,7,Increment 2
-REQ-052,Advisor Portal,7,High,Public Finance,7,Increment 4
-REQ-053,Trade Support,3,Critical,Operations,3,Increment 4
-REQ-054,Advisor Portal,3,Medium,Financial Advisors,8,Increment 4
-REQ-055,Public Finance CRM,13,High,Financial Advisors,8,Increment 1
-REQ-056,Compliance Workflow,16,High,Compliance,3,Increment 4
-REQ-057,Data Entitlements,11,Medium,Compliance,6,Increment 2
-REQ-058,Trade Support,9,Low,Sales Support,5,Increment 3
-REQ-059,Trade Support,14,Medium,Public Finance,9,Increment 3
-REQ-060,Client Reporting,16,Critical,Compliance,3,Increment 3
+REQ-001,Public Finance CRM,6,High,Operations,6,Increment 4
+REQ-002,Public Finance CRM,7,Medium,Sales Support,5,Increment 2
+REQ-003,Client Reporting,8,Medium,Compliance,6,Increment 4
+REQ-004,Client Reporting,7,Low,Operations,5,Increment 1
+REQ-005,Public Finance CRM,4,Medium,Sales Support,5,Increment 2
+REQ-006,Compliance Workflow,9,Low,Financial Advisors,6,Increment 4
+REQ-007,Public Finance CRM,2,Medium,Public Finance,8,Increment 3
+REQ-008,Compliance Workflow,15,High,Financial Advisors,7,Increment 3
+REQ-009,Data Entitlements,12,High,Financial Advisors,5,Increment 4
+REQ-010,Advisor Portal,4,Medium,Compliance,4,Increment 2
+REQ-011,Data Entitlements,12,High,Public Finance,8,Increment 4
+REQ-012,Compliance Workflow,10,High,Public Finance,8,Increment 2
+REQ-013,Public Finance CRM,6,Medium,Sales Support,4,Increment 2
+REQ-014,Client Reporting,9,Medium,Operations,5,Increment 1
+REQ-015,Trade Support,14,Medium,Operations,7,Increment 4
+REQ-016,Compliance Workflow,16,Low,Public Finance,3,Increment 4
+REQ-017,Trade Support,14,Medium,Public Finance,8,Increment 2
+REQ-018,Advisor Portal,13,Medium,Financial Advisors,8,Increment 1
+REQ-019,Public Finance CRM,12,Medium,Compliance,7,Increment 2
+REQ-020,Public Finance CRM,10,Medium,Public Finance,7,Increment 2
+REQ-021,Compliance Workflow,8,Medium,Public Finance,8,Increment 1
+REQ-022,Compliance Workflow,8,Medium,Public Finance,4,Increment 4
+REQ-023,Data Entitlements,15,Medium,Operations,5,Increment 3
+REQ-024,Trade Support,8,High,Operations,8,Increment 4
+REQ-025,Public Finance CRM,4,Medium,Financial Advisors,6,Increment 4
+REQ-026,Compliance Workflow,7,Medium,Public Finance,3,Increment 3
+REQ-027,Public Finance CRM,16,High,Sales Support,6,Increment 3
+REQ-028,Compliance Workflow,7,High,Operations,3,Increment 1
+REQ-029,Compliance Workflow,12,Medium,Financial Advisors,5,Increment 4
+REQ-030,Data Entitlements,2,Medium,Public Finance,6,Increment 2
+REQ-031,Compliance Workflow,12,Medium,Operations,8,Increment 3
+REQ-032,Compliance Workflow,12,Medium,Operations,7,Increment 1
+REQ-033,Client Reporting,6,Critical,Operations,4,Increment 2
+REQ-034,Compliance Workflow,5,High,Financial Advisors,3,Increment 3
+REQ-035,Public Finance CRM,13,Critical,Public Finance,9,Increment 1
+REQ-036,Client Reporting,17,Medium,Sales Support,6,Increment 4
+REQ-037,Compliance Workflow,6,Medium,Financial Advisors,6,Increment 2
+REQ-038,Public Finance CRM,5,High,Operations,8,Increment 1
+REQ-039,Data Entitlements,3,Medium,Financial Advisors,6,Increment 1
+REQ-040,Trade Support,3,Medium,Financial Advisors,9,Increment 2
+REQ-041,Public Finance CRM,18,High,Compliance,3,Increment 3
+REQ-042,Advisor Portal,17,Medium,Compliance,7,Increment 1
+REQ-043,Trade Support,3,Medium,Financial Advisors,4,Increment 4
+REQ-044,Public Finance CRM,2,Medium,Sales Support,5,Increment 2
+REQ-045,Trade Support,14,High,Operations,8,Increment 3
+REQ-046,Compliance Workflow,10,High,Compliance,4,Increment 2
+REQ-047,Public Finance CRM,10,High,Public Finance,6,Increment 1
+REQ-048,Client Reporting,11,Critical,Sales Support,8,Increment 4
+REQ-049,Trade Support,8,High,Compliance,9,Increment 1
+REQ-050,Trade Support,8,Medium,Public Finance,9,Increment 2
+REQ-051,Public Finance CRM,11,Medium,Financial Advisors,7,Increment 3
+REQ-052,Compliance Workflow,8,Critical,Operations,4,Increment 2
+REQ-053,Trade Support,12,Medium,Compliance,8,Increment 3
+REQ-054,Client Reporting,16,Medium,Financial Advisors,6,Increment 4
+REQ-055,Data Entitlements,11,Low,Financial Advisors,3,Increment 1
+REQ-056,Advisor Portal,2,Medium,Operations,5,Increment 1
+REQ-057,Client Reporting,11,High,Sales Support,4,Increment 1
+REQ-058,Public Finance CRM,3,High,Financial Advisors,6,Increment 3
+REQ-059,Public Finance CRM,4,Medium,Operations,5,Increment 1
+REQ-060,Public Finance CRM,5,High,Compliance,9,Increment 2
+REQ-061,Data Entitlements,5,Medium,Operations,6,Increment 2
+REQ-062,Advisor Portal,2,Critical,Financial Advisors,6,Increment 3
+REQ-063,Advisor Portal,10,Medium,Compliance,3,Increment 2
+REQ-064,Advisor Portal,8,High,Compliance,3,Increment 1
+REQ-065,Client Reporting,17,Medium,Compliance,4,Increment 1
+REQ-066,Data Entitlements,3,Critical,Public Finance,8,Increment 3
+REQ-067,Trade Support,17,Medium,Operations,8,Increment 3
+REQ-068,Trade Support,8,Medium,Operations,8,Increment 1
+REQ-069,Compliance Workflow,15,Low,Compliance,9,Increment 2
+REQ-070,Public Finance CRM,3,High,Sales Support,5,Increment 4
+REQ-071,Compliance Workflow,17,High,Public Finance,8,Increment 2
+REQ-072,Data Entitlements,12,Medium,Compliance,4,Increment 4
+REQ-073,Client Reporting,13,Low,Public Finance,4,Increment 4
+REQ-074,Public Finance CRM,15,Low,Operations,7,Increment 3
+REQ-075,Public Finance CRM,6,Low,Compliance,6,Increment 2
+REQ-076,Public Finance CRM,3,Medium,Financial Advisors,7,Increment 3
+REQ-077,Compliance Workflow,7,High,Financial Advisors,9,Increment 4
+REQ-078,Client Reporting,4,Low,Sales Support,7,Increment 1
+REQ-079,Advisor Portal,18,Medium,Public Finance,7,Increment 2
+REQ-080,Data Entitlements,9,Medium,Public Finance,6,Increment 1
+REQ-081,Data Entitlements,12,Medium,Public Finance,7,Increment 4
+REQ-082,Data Entitlements,18,Medium,Financial Advisors,7,Increment 3
+REQ-083,Data Entitlements,15,Medium,Operations,4,Increment 4
+REQ-084,Data Entitlements,6,Low,Financial Advisors,8,Increment 1
+REQ-085,Advisor Portal,18,Medium,Operations,8,Increment 3
+REQ-086,Client Reporting,9,High,Financial Advisors,7,Increment 1
+REQ-087,Advisor Portal,8,Critical,Public Finance,3,Increment 2
+REQ-088,Data Entitlements,7,Critical,Public Finance,6,Increment 1
+REQ-089,Public Finance CRM,15,Medium,Operations,8,Increment 3
+REQ-090,Client Reporting,12,High,Public Finance,6,Increment 4
+REQ-091,Data Entitlements,3,Medium,Operations,6,Increment 3
+REQ-092,Advisor Portal,13,High,Compliance,9,Increment 4
+REQ-093,Client Reporting,5,Medium,Sales Support,5,Increment 4
+REQ-094,Client Reporting,2,Critical,Compliance,9,Increment 1
+REQ-095,Public Finance CRM,17,Medium,Operations,4,Increment 1
+REQ-096,Client Reporting,16,Medium,Financial Advisors,7,Increment 4
+REQ-097,Public Finance CRM,3,High,Compliance,4,Increment 4
+REQ-098,Advisor Portal,5,Medium,Sales Support,9,Increment 1
+REQ-099,Client Reporting,18,Critical,Financial Advisors,6,Increment 3
+REQ-100,Compliance Workflow,14,Medium,Operations,5,Increment 1
+REQ-101,Client Reporting,18,High,Compliance,5,Increment 2
+REQ-102,Public Finance CRM,3,Medium,Compliance,3,Increment 2
+REQ-103,Trade Support,4,Medium,Financial Advisors,3,Increment 4
+REQ-104,Client Reporting,7,Critical,Financial Advisors,4,Increment 3
+REQ-105,Trade Support,17,Medium,Operations,3,Increment 2
+REQ-106,Trade Support,6,Medium,Sales Support,7,Increment 1
+REQ-107,Client Reporting,16,High,Compliance,3,Increment 3
+REQ-108,Client Reporting,5,Medium,Public Finance,6,Increment 4
+REQ-109,Advisor Portal,4,Critical,Public Finance,6,Increment 4
+REQ-110,Trade Support,18,Low,Financial Advisors,3,Increment 1
+REQ-111,Advisor Portal,7,Medium,Financial Advisors,6,Increment 3
+REQ-112,Client Reporting,10,Critical,Financial Advisors,7,Increment 4
+REQ-113,Compliance Workflow,5,Critical,Financial Advisors,4,Increment 3
+REQ-114,Data Entitlements,6,Medium,Operations,5,Increment 1
+REQ-115,Advisor Portal,18,High,Public Finance,7,Increment 1
+REQ-116,Trade Support,11,High,Financial Advisors,9,Increment 4
+REQ-117,Trade Support,8,Medium,Compliance,6,Increment 2
+REQ-118,Trade Support,5,High,Sales Support,9,Increment 1
+REQ-119,Data Entitlements,6,High,Sales Support,4,Increment 1
+REQ-120,Compliance Workflow,17,Low,Operations,7,Increment 2

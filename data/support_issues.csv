@@ -419,3 +419,683 @@ HTS-0417,Trade Support,2026-07-16,Open,P4,Service Center,Operations,168,60,4,108
 HTS-0418,Client Reporting,2026-07-18,Closed,P4,Service Center,Public Finance,168,14,3,66,4.1,0,REL-07
 HTS-0419,Compliance Workflow,2026-07-16,Vendor Pending,P3,Service Center,Operations,72,48,1,118,4.2,1,REL-04
 HTS-0420,Compliance Workflow,2026-07-16,In Progress,P3,Email,Operations,72,48,0,115,4.0,0,REL-05
+HTS-0421,Advisor Portal,2026-07-16,Testing,P3,Release Testing,Compliance,72,51,2,118,2.5,0,REL-03
+HTS-0422,Client Reporting,2026-07-18,Open,P4,Service Center,Financial Advisors,168,22,3,26,3.3,0,REL-03
+HTS-0423,Client Reporting,2026-07-18,Vendor Pending,P3,Service Center,Compliance,72,21,2,133,5.0,0,REL-07
+HTS-0424,Data Entitlements,2026-07-17,Closed,P1,Service Center,Financial Advisors,8,26,0,16,4.1,0,REL-08
+HTS-0425,Trade Support,2026-07-17,Open,P3,Email,Operations,72,27,1,130,4.7,0,REL-08
+HTS-0426,Client Reporting,2026-07-15,In Progress,P2,User Group,Operations,24,74,0,143,3.4,0,REL-04
+HTS-0427,Advisor Portal,2026-07-18,Open,P1,Service Center,Sales Support,8,23,3,79,3.7,0,REL-02
+HTS-0428,Compliance Workflow,2026-07-17,Vendor Pending,P3,User Group,Sales Support,72,26,2,48,6.6,0,REL-06
+HTS-0429,Public Finance CRM,2026-07-18,Closed,P4,Vendor,Compliance,168,17,3,19,3.5,0,REL-05
+HTS-0430,Trade Support,2026-07-16,Vendor Pending,P3,Service Center,Sales Support,72,50,5,126,5.5,0,REL-05
+HTS-0431,Trade Support,2026-07-15,Vendor Pending,P3,Service Center,Compliance,72,72,1,49,6.3,0,REL-05
+HTS-0432,Trade Support,2026-07-15,Testing,P4,Release Testing,Compliance,168,81,0,92,4.7,0,REL-01
+HTS-0433,Advisor Portal,2026-07-15,In Progress,P3,Service Center,Public Finance,72,95,2,32,5.3,0,REL-01
+HTS-0434,Data Entitlements,2026-07-17,In Progress,P4,Service Center,Operations,168,28,1,126,2.8,0,REL-06
+HTS-0435,Advisor Portal,2026-07-13,Testing,P3,Service Center,Public Finance,72,137,1,7,3.1,0,REL-06
+HTS-0436,Public Finance CRM,2026-07-18,Closed,P2,User Group,Financial Advisors,24,23,1,102,3.0,0,REL-05
+HTS-0437,Client Reporting,2026-07-17,Open,P3,Vendor,Public Finance,72,40,1,80,3.1,0,REL-02
+HTS-0438,Advisor Portal,2026-07-18,In Progress,P3,Service Center,Compliance,72,10,3,42,3.0,1,REL-05
+HTS-0439,Compliance Workflow,2026-07-18,Testing,P4,Service Center,Operations,168,23,1,136,2.6,0,REL-01
+HTS-0440,Client Reporting,2026-07-15,Closed,P3,Service Center,Public Finance,72,75,0,82,5.1,0,REL-04
+HTS-0441,Client Reporting,2026-07-17,Testing,P2,Service Center,Financial Advisors,24,36,0,6,6.6,0,REL-02
+HTS-0442,Trade Support,2026-07-17,Closed,P2,Vendor,Sales Support,24,44,0,21,3.6,1,REL-08
+HTS-0443,Advisor Portal,2026-07-18,Open,P2,Service Center,Compliance,24,9,0,155,6.3,0,REL-08
+HTS-0444,Data Entitlements,2026-07-17,Testing,P3,Vendor,Operations,72,40,5,122,4.8,0,REL-08
+HTS-0445,Client Reporting,2026-07-17,In Progress,P2,Release Testing,Financial Advisors,24,39,3,160,3.3,0,REL-03
+HTS-0446,Public Finance CRM,2026-07-15,In Progress,P3,Service Center,Compliance,72,89,0,125,4.3,0,REL-06
+HTS-0447,Data Entitlements,2026-07-18,Testing,P3,Service Center,Operations,72,21,2,139,4.3,0,REL-04
+HTS-0448,Client Reporting,2026-07-16,Open,P3,Service Center,Sales Support,72,68,1,114,4.8,0,REL-04
+HTS-0449,Data Entitlements,2026-07-15,Vendor Pending,P2,Service Center,Sales Support,24,90,1,86,4.7,1,REL-03
+HTS-0450,Data Entitlements,2026-07-16,Testing,P3,Email,Compliance,72,50,0,168,5.2,0,REL-03
+HTS-0451,Client Reporting,2026-07-18,Vendor Pending,P4,Service Center,Financial Advisors,168,23,2,84,3.5,1,REL-05
+HTS-0452,Compliance Workflow,2026-07-09,Open,P4,Release Testing,Compliance,168,223,3,78,2.4,1,REL-01
+HTS-0453,Advisor Portal,2026-07-16,Closed,P1,Vendor,Financial Advisors,8,70,1,154,4.0,0,REL-07
+HTS-0454,Trade Support,2026-07-16,In Progress,P3,Service Center,Compliance,72,53,3,95,6.0,0,REL-03
+HTS-0455,Client Reporting,2026-07-14,Closed,P2,Service Center,Financial Advisors,24,103,1,109,6.1,1,REL-07
+HTS-0456,Client Reporting,2026-07-16,In Progress,P3,Service Center,Compliance,72,55,1,150,4.4,0,REL-05
+HTS-0457,Advisor Portal,2026-07-16,Vendor Pending,P3,Email,Operations,72,68,1,179,2.5,0,REL-05
+HTS-0458,Advisor Portal,2026-07-18,Open,P3,User Group,Operations,72,16,2,141,5.9,0,REL-01
+HTS-0459,Client Reporting,2026-07-16,In Progress,P4,Service Center,Public Finance,168,66,1,78,3.5,0,REL-05
+HTS-0460,Client Reporting,2026-07-16,Vendor Pending,P3,User Group,Public Finance,72,70,2,162,2.2,0,REL-03
+HTS-0461,Public Finance CRM,2026-07-18,Open,P3,Service Center,Financial Advisors,72,22,3,41,5.2,0,REL-03
+HTS-0462,Compliance Workflow,2026-07-14,Closed,P3,Service Center,Operations,72,97,4,155,6.5,0,REL-08
+HTS-0463,Data Entitlements,2026-07-16,In Progress,P4,User Group,Financial Advisors,168,50,1,91,2.4,0,REL-02
+HTS-0464,Client Reporting,2026-07-16,Testing,P2,Email,Sales Support,24,56,0,177,5.4,0,REL-03
+HTS-0465,Client Reporting,2026-07-16,In Progress,P3,Service Center,Sales Support,72,53,2,13,2.6,0,REL-06
+HTS-0466,Public Finance CRM,2026-07-16,In Progress,P4,Service Center,Operations,168,53,0,152,3.9,0,REL-04
+HTS-0467,Public Finance CRM,2026-07-15,Testing,P3,Release Testing,Public Finance,72,74,1,175,2.1,0,REL-07
+HTS-0468,Trade Support,2026-07-18,Testing,P2,Service Center,Operations,24,19,0,26,2.4,0,REL-04
+HTS-0469,Advisor Portal,2026-07-15,Open,P4,User Group,Compliance,168,83,1,168,4.8,1,REL-02
+HTS-0470,Advisor Portal,2026-07-17,Vendor Pending,P3,Release Testing,Public Finance,72,34,2,180,6.3,0,REL-06
+HTS-0471,Advisor Portal,2026-07-13,In Progress,P3,Service Center,Operations,72,122,0,70,2.9,0,REL-04
+HTS-0472,Trade Support,2026-07-17,In Progress,P3,Service Center,Sales Support,72,26,1,116,5.5,0,REL-02
+HTS-0473,Advisor Portal,2026-07-14,Closed,P2,Service Center,Operations,24,104,4,173,3.9,0,REL-06
+HTS-0474,Client Reporting,2026-07-15,In Progress,P4,Service Center,Operations,168,72,1,3,3.9,0,REL-08
+HTS-0475,Public Finance CRM,2026-07-16,Testing,P2,Service Center,Operations,24,66,0,90,2.5,0,REL-05
+HTS-0476,Data Entitlements,2026-07-17,In Progress,P3,Service Center,Public Finance,72,47,1,164,4.2,0,REL-01
+HTS-0477,Client Reporting,2026-07-14,In Progress,P2,Email,Public Finance,24,102,1,118,6.6,0,REL-06
+HTS-0478,Data Entitlements,2026-07-18,In Progress,P2,Release Testing,Sales Support,24,20,0,151,3.2,0,REL-03
+HTS-0479,Compliance Workflow,2026-07-18,Open,P3,Email,Financial Advisors,72,7,0,164,2.3,0,REL-02
+HTS-0480,Advisor Portal,2026-07-17,Open,P3,User Group,Sales Support,72,26,0,54,4.1,1,REL-07
+HTS-0481,Trade Support,2026-07-18,Testing,P3,User Group,Public Finance,72,22,0,73,2.8,0,REL-06
+HTS-0482,Advisor Portal,2026-07-16,Open,P3,Email,Sales Support,72,53,0,43,2.2,0,REL-01
+HTS-0483,Data Entitlements,2026-07-15,Testing,P1,Email,Financial Advisors,8,75,0,166,3.4,0,REL-04
+HTS-0484,Trade Support,2026-07-15,Testing,P4,User Group,Operations,168,78,1,80,3.7,0,REL-04
+HTS-0485,Compliance Workflow,2026-07-15,In Progress,P2,Service Center,Financial Advisors,24,80,0,52,2.6,0,REL-08
+HTS-0486,Advisor Portal,2026-07-17,Vendor Pending,P3,Service Center,Compliance,72,25,0,160,5.9,0,REL-01
+HTS-0487,Trade Support,2026-07-18,Testing,P2,Service Center,Operations,24,12,0,63,5.5,0,REL-06
+HTS-0488,Trade Support,2026-07-14,Testing,P3,Service Center,Operations,72,110,0,108,6.2,0,REL-04
+HTS-0489,Client Reporting,2026-07-15,Open,P2,Release Testing,Compliance,24,74,0,98,2.7,0,REL-06
+HTS-0490,Data Entitlements,2026-07-17,Vendor Pending,P4,Service Center,Operations,168,29,3,120,4.1,0,REL-04
+HTS-0491,Data Entitlements,2026-07-15,Closed,P4,Release Testing,Sales Support,168,77,5,61,2.5,1,REL-08
+HTS-0492,Client Reporting,2026-07-17,In Progress,P4,Email,Financial Advisors,168,30,0,114,4.8,1,REL-03
+HTS-0493,Data Entitlements,2026-07-18,Testing,P4,Service Center,Sales Support,168,11,0,28,4.2,0,REL-01
+HTS-0494,Public Finance CRM,2026-07-16,In Progress,P3,User Group,Operations,72,50,0,174,3.5,0,REL-01
+HTS-0495,Data Entitlements,2026-07-16,In Progress,P4,Email,Public Finance,168,56,1,165,2.1,0,REL-07
+HTS-0496,Client Reporting,2026-07-17,Testing,P4,User Group,Sales Support,168,42,1,56,5.8,0,REL-06
+HTS-0497,Data Entitlements,2026-07-18,In Progress,P3,Service Center,Compliance,72,13,0,161,2.3,0,REL-02
+HTS-0498,Data Entitlements,2026-07-17,In Progress,P3,Release Testing,Sales Support,72,42,3,56,5.6,0,REL-06
+HTS-0499,Public Finance CRM,2026-07-17,Open,P3,Service Center,Compliance,72,35,1,137,6.0,0,REL-05
+HTS-0500,Data Entitlements,2026-07-17,Testing,P3,Release Testing,Operations,72,45,0,120,2.5,0,REL-03
+HTS-0501,Client Reporting,2026-07-17,Open,P3,Service Center,Operations,72,36,0,177,4.6,0,REL-06
+HTS-0502,Compliance Workflow,2026-07-13,Vendor Pending,P3,Service Center,Public Finance,72,131,1,86,4.4,0,REL-08
+HTS-0503,Public Finance CRM,2026-07-16,Open,P3,Service Center,Compliance,72,71,0,76,5.7,0,REL-06
+HTS-0504,Trade Support,2026-07-17,Closed,P3,Vendor,Financial Advisors,72,25,0,32,2.3,0,REL-03
+HTS-0505,Data Entitlements,2026-07-17,Open,P3,Service Center,Public Finance,72,46,0,117,4.6,0,REL-05
+HTS-0506,Trade Support,2026-07-18,Closed,P2,Release Testing,Financial Advisors,24,8,0,142,6.7,0,REL-05
+HTS-0507,Compliance Workflow,2026-07-17,Vendor Pending,P3,Email,Compliance,72,37,0,31,5.5,1,REL-03
+HTS-0508,Public Finance CRM,2026-07-15,Open,P3,Service Center,Financial Advisors,72,79,1,59,5.8,0,REL-04
+HTS-0509,Data Entitlements,2026-07-16,Closed,P1,Release Testing,Compliance,8,66,0,84,4.9,0,REL-01
+HTS-0510,Client Reporting,2026-07-17,In Progress,P4,Service Center,Public Finance,168,45,0,81,6.7,1,REL-02
+HTS-0511,Client Reporting,2026-07-11,Testing,P2,Service Center,Compliance,24,189,2,109,2.8,0,REL-02
+HTS-0512,Compliance Workflow,2026-07-17,Closed,P2,Service Center,Sales Support,24,39,2,25,2.1,0,REL-05
+HTS-0513,Trade Support,2026-07-16,Open,P3,Vendor,Public Finance,72,69,1,13,6.0,0,REL-05
+HTS-0514,Advisor Portal,2026-07-14,Open,P3,Service Center,Compliance,72,108,0,173,6.3,0,REL-08
+HTS-0515,Advisor Portal,2026-07-14,Vendor Pending,P4,Service Center,Compliance,168,116,1,69,5.1,0,REL-02
+HTS-0516,Trade Support,2026-07-17,In Progress,P3,Vendor,Financial Advisors,72,34,0,16,3.4,0,REL-06
+HTS-0517,Advisor Portal,2026-07-17,In Progress,P1,Email,Financial Advisors,8,38,2,156,5.6,0,REL-06
+HTS-0518,Data Entitlements,2026-07-15,Testing,P4,Service Center,Sales Support,168,93,1,39,2.2,0,REL-06
+HTS-0519,Trade Support,2026-07-16,Open,P4,Service Center,Financial Advisors,168,50,3,146,5.0,1,REL-02
+HTS-0520,Trade Support,2026-07-17,Testing,P3,Release Testing,Sales Support,72,43,1,90,2.9,0,REL-02
+HTS-0521,Trade Support,2026-07-17,Closed,P2,Service Center,Operations,24,31,0,126,5.7,0,REL-02
+HTS-0522,Client Reporting,2026-07-15,Open,P1,Service Center,Operations,8,88,0,5,5.6,1,REL-04
+HTS-0523,Advisor Portal,2026-07-17,Open,P3,Vendor,Public Finance,72,29,4,92,3.8,1,REL-04
+HTS-0524,Advisor Portal,2026-07-18,In Progress,P3,Email,Public Finance,72,14,0,140,2.1,0,REL-04
+HTS-0525,Data Entitlements,2026-07-14,Closed,P4,Service Center,Public Finance,168,97,5,111,3.1,0,REL-02
+HTS-0526,Compliance Workflow,2026-07-17,Open,P4,Email,Public Finance,168,40,1,13,2.5,0,REL-07
+HTS-0527,Client Reporting,2026-07-15,Open,P3,Service Center,Compliance,72,76,0,20,6.3,1,REL-06
+HTS-0528,Data Entitlements,2026-07-18,Testing,P2,Service Center,Compliance,24,19,0,154,6.7,0,REL-03
+HTS-0529,Advisor Portal,2026-07-15,Open,P2,Service Center,Compliance,24,75,0,151,4.9,0,REL-07
+HTS-0530,Client Reporting,2026-07-15,In Progress,P3,Service Center,Compliance,72,89,0,67,4.4,0,REL-03
+HTS-0531,Client Reporting,2026-07-14,Testing,P1,Release Testing,Compliance,8,107,1,86,2.8,0,REL-02
+HTS-0532,Client Reporting,2026-07-15,Testing,P4,Service Center,Compliance,168,88,1,69,4.6,1,REL-01
+HTS-0533,Advisor Portal,2026-07-18,In Progress,P4,Service Center,Compliance,168,9,1,12,2.3,0,REL-05
+HTS-0534,Public Finance CRM,2026-07-17,Testing,P4,Service Center,Operations,168,25,1,128,5.2,0,REL-08
+HTS-0535,Client Reporting,2026-07-16,Vendor Pending,P3,Service Center,Public Finance,72,48,0,10,4.9,0,REL-06
+HTS-0536,Public Finance CRM,2026-07-18,In Progress,P3,Service Center,Financial Advisors,72,18,0,168,3.6,0,REL-02
+HTS-0537,Compliance Workflow,2026-07-18,In Progress,P4,Service Center,Compliance,168,20,1,110,3.4,0,REL-01
+HTS-0538,Compliance Workflow,2026-07-17,Open,P4,Service Center,Financial Advisors,168,46,0,131,5.9,0,REL-03
+HTS-0539,Client Reporting,2026-07-17,Vendor Pending,P3,Release Testing,Operations,72,45,3,140,3.1,0,REL-05
+HTS-0540,Data Entitlements,2026-07-16,Closed,P4,Email,Sales Support,168,49,0,89,3.4,0,REL-08
+HTS-0541,Public Finance CRM,2026-07-17,In Progress,P3,Service Center,Sales Support,72,43,0,109,4.0,0,REL-08
+HTS-0542,Data Entitlements,2026-07-16,Testing,P3,Vendor,Sales Support,72,68,1,172,6.6,0,REL-08
+HTS-0543,Client Reporting,2026-07-15,Closed,P3,Email,Operations,72,83,1,96,4.3,0,REL-05
+HTS-0544,Advisor Portal,2026-07-16,Vendor Pending,P4,Vendor,Public Finance,168,50,2,168,2.9,0,REL-04
+HTS-0545,Trade Support,2026-07-18,Testing,P3,Service Center,Compliance,72,20,1,114,4.1,1,REL-04
+HTS-0546,Public Finance CRM,2026-07-18,Vendor Pending,P2,Service Center,Operations,24,22,4,127,5.8,0,REL-02
+HTS-0547,Client Reporting,2026-07-17,Closed,P3,User Group,Operations,72,38,0,38,3.2,0,REL-02
+HTS-0548,Compliance Workflow,2026-07-12,In Progress,P3,Release Testing,Financial Advisors,72,144,1,83,3.6,0,REL-07
+HTS-0549,Trade Support,2026-07-14,Open,P4,Service Center,Public Finance,168,109,1,68,6.2,0,REL-06
+HTS-0550,Client Reporting,2026-07-18,Testing,P3,Release Testing,Financial Advisors,72,20,0,97,6.0,0,REL-01
+HTS-0551,Data Entitlements,2026-07-15,Closed,P4,User Group,Public Finance,168,88,1,82,5.1,0,REL-02
+HTS-0552,Advisor Portal,2026-07-17,Closed,P3,Service Center,Public Finance,72,32,0,63,3.5,1,REL-03
+HTS-0553,Data Entitlements,2026-07-15,In Progress,P4,Service Center,Operations,168,82,2,128,4.3,0,REL-06
+HTS-0554,Trade Support,2026-07-11,Testing,P3,Service Center,Public Finance,72,178,1,143,5.6,0,REL-01
+HTS-0555,Client Reporting,2026-07-15,Testing,P4,Service Center,Compliance,168,84,0,81,3.6,0,REL-03
+HTS-0556,Data Entitlements,2026-07-14,Testing,P2,Vendor,Compliance,24,101,2,84,4.2,1,REL-03
+HTS-0557,Public Finance CRM,2026-07-15,Open,P3,Service Center,Financial Advisors,72,94,0,99,6.5,1,REL-04
+HTS-0558,Compliance Workflow,2026-07-18,Vendor Pending,P1,Release Testing,Compliance,8,8,0,46,2.3,0,REL-05
+HTS-0559,Compliance Workflow,2026-07-16,In Progress,P2,Release Testing,Compliance,24,71,2,129,2.7,0,REL-04
+HTS-0560,Client Reporting,2026-07-14,Closed,P4,User Group,Public Finance,168,110,2,51,4.1,0,REL-03
+HTS-0561,Compliance Workflow,2026-07-16,Testing,P1,Service Center,Operations,8,55,1,85,6.7,0,REL-04
+HTS-0562,Public Finance CRM,2026-07-14,Open,P3,User Group,Operations,72,99,0,63,4.3,0,REL-01
+HTS-0563,Client Reporting,2026-07-16,Testing,P1,Service Center,Sales Support,8,62,0,48,3.3,0,REL-06
+HTS-0564,Compliance Workflow,2026-07-18,In Progress,P4,Service Center,Public Finance,168,22,0,35,4.4,1,REL-05
+HTS-0565,Public Finance CRM,2026-07-14,In Progress,P3,Service Center,Compliance,72,115,2,41,4.7,1,REL-08
+HTS-0566,Advisor Portal,2026-07-18,In Progress,P2,Service Center,Compliance,24,23,1,129,2.3,0,REL-08
+HTS-0567,Trade Support,2026-07-18,Open,P3,Service Center,Public Finance,72,20,0,46,5.6,1,REL-04
+HTS-0568,Advisor Portal,2026-07-16,Open,P3,Service Center,Operations,72,71,3,9,3.4,1,REL-02
+HTS-0569,Public Finance CRM,2026-07-15,Open,P3,Service Center,Compliance,72,75,1,71,4.9,0,REL-01
+HTS-0570,Compliance Workflow,2026-07-14,Open,P3,Vendor,Public Finance,72,106,0,17,5.6,0,REL-07
+HTS-0571,Client Reporting,2026-07-17,Open,P2,Vendor,Financial Advisors,24,34,0,106,3.4,0,REL-03
+HTS-0572,Public Finance CRM,2026-07-16,Closed,P2,User Group,Public Finance,24,60,1,97,4.5,0,REL-07
+HTS-0573,Client Reporting,2026-07-16,Testing,P3,User Group,Compliance,72,70,1,26,2.3,0,REL-08
+HTS-0574,Client Reporting,2026-07-15,In Progress,P3,User Group,Operations,72,85,0,114,2.5,1,REL-05
+HTS-0575,Trade Support,2026-07-18,In Progress,P2,Service Center,Operations,24,21,1,14,4.5,0,REL-07
+HTS-0576,Public Finance CRM,2026-07-15,In Progress,P2,User Group,Sales Support,24,88,0,172,4.3,1,REL-07
+HTS-0577,Public Finance CRM,2026-07-16,Vendor Pending,P1,Service Center,Compliance,8,51,1,70,3.7,1,REL-03
+HTS-0578,Public Finance CRM,2026-07-18,Closed,P2,Service Center,Sales Support,24,16,0,104,2.6,0,REL-08
+HTS-0579,Data Entitlements,2026-07-16,Vendor Pending,P3,Service Center,Sales Support,72,50,2,160,3.8,0,REL-07
+HTS-0580,Trade Support,2026-07-18,Open,P4,Service Center,Financial Advisors,168,17,3,56,4.4,0,REL-04
+HTS-0581,Trade Support,2026-07-15,Open,P3,Email,Financial Advisors,72,81,1,8,2.6,1,REL-08
+HTS-0582,Compliance Workflow,2026-07-16,Open,P4,Service Center,Compliance,168,57,0,5,2.6,1,REL-07
+HTS-0583,Compliance Workflow,2026-07-12,Testing,P4,Release Testing,Operations,168,156,1,127,4.5,0,REL-08
+HTS-0584,Public Finance CRM,2026-07-15,Closed,P2,Service Center,Compliance,24,72,0,162,6.5,0,REL-07
+HTS-0585,Public Finance CRM,2026-07-17,In Progress,P1,Service Center,Sales Support,8,37,3,89,6.4,1,REL-08
+HTS-0586,Client Reporting,2026-07-17,Testing,P2,User Group,Public Finance,24,38,2,44,5.0,0,REL-02
+HTS-0587,Compliance Workflow,2026-07-18,In Progress,P3,Email,Compliance,72,21,0,56,4.7,1,REL-06
+HTS-0588,Compliance Workflow,2026-07-17,Open,P4,Service Center,Compliance,168,44,0,61,2.7,0,REL-05
+HTS-0589,Compliance Workflow,2026-07-13,In Progress,P4,Service Center,Sales Support,168,124,1,29,5.4,1,REL-08
+HTS-0590,Advisor Portal,2026-07-15,Testing,P4,Service Center,Operations,168,78,0,33,6.2,1,REL-03
+HTS-0591,Client Reporting,2026-07-14,Testing,P3,Service Center,Public Finance,72,99,0,38,2.7,0,REL-07
+HTS-0592,Client Reporting,2026-07-18,In Progress,P4,Service Center,Operations,168,4,0,109,3.8,0,REL-03
+HTS-0593,Trade Support,2026-07-16,Testing,P4,Service Center,Compliance,168,65,3,135,5.8,0,REL-01
+HTS-0594,Compliance Workflow,2026-07-14,Closed,P3,Service Center,Public Finance,72,118,0,45,4.1,0,REL-01
+HTS-0595,Advisor Portal,2026-07-15,Closed,P3,Release Testing,Sales Support,72,84,5,110,4.0,0,REL-05
+HTS-0596,Public Finance CRM,2026-07-17,Closed,P3,User Group,Financial Advisors,72,40,2,117,5.1,1,REL-08
+HTS-0597,Client Reporting,2026-07-11,Testing,P3,Release Testing,Operations,72,189,0,88,3.9,0,REL-03
+HTS-0598,Compliance Workflow,2026-07-16,Vendor Pending,P3,Service Center,Financial Advisors,72,67,0,141,4.9,0,REL-05
+HTS-0599,Data Entitlements,2026-07-18,In Progress,P3,Service Center,Operations,72,13,1,149,5.6,0,REL-04
+HTS-0600,Public Finance CRM,2026-07-16,In Progress,P4,User Group,Sales Support,168,66,1,99,4.5,0,REL-06
+HTS-0601,Client Reporting,2026-07-17,Open,P3,Email,Compliance,72,28,0,18,4.1,0,REL-04
+HTS-0602,Compliance Workflow,2026-07-17,Vendor Pending,P3,Email,Public Finance,72,46,1,165,4.1,0,REL-08
+HTS-0603,Compliance Workflow,2026-07-16,Open,P3,Email,Financial Advisors,72,51,4,134,6.2,0,REL-04
+HTS-0604,Compliance Workflow,2026-07-18,In Progress,P3,Release Testing,Sales Support,72,9,3,31,2.7,0,REL-01
+HTS-0605,Public Finance CRM,2026-07-18,In Progress,P3,Service Center,Financial Advisors,72,20,0,153,4.1,1,REL-05
+HTS-0606,Client Reporting,2026-07-17,Open,P4,Service Center,Operations,168,30,3,109,4.4,0,REL-08
+HTS-0607,Data Entitlements,2026-07-13,Testing,P4,Service Center,Financial Advisors,168,122,1,120,5.7,0,REL-03
+HTS-0608,Data Entitlements,2026-07-17,Vendor Pending,P4,Service Center,Compliance,168,41,0,14,6.6,1,REL-05
+HTS-0609,Compliance Workflow,2026-07-11,Vendor Pending,P3,Email,Public Finance,72,169,1,34,5.1,0,REL-01
+HTS-0610,Compliance Workflow,2026-07-16,Closed,P4,Service Center,Sales Support,168,64,0,7,3.4,0,REL-08
+HTS-0611,Compliance Workflow,2026-07-16,Open,P2,Vendor,Operations,24,66,0,49,4.1,1,REL-06
+HTS-0612,Compliance Workflow,2026-07-18,Open,P3,Service Center,Public Finance,72,17,2,42,3.5,0,REL-03
+HTS-0613,Advisor Portal,2026-07-14,In Progress,P2,Service Center,Public Finance,24,100,0,33,2.3,0,REL-04
+HTS-0614,Advisor Portal,2026-07-14,In Progress,P3,Service Center,Sales Support,72,112,0,126,2.2,0,REL-01
+HTS-0615,Trade Support,2026-07-17,In Progress,P3,Service Center,Operations,72,33,3,131,3.1,1,REL-06
+HTS-0616,Client Reporting,2026-07-17,Closed,P3,User Group,Operations,72,25,0,121,6.6,0,REL-03
+HTS-0617,Client Reporting,2026-07-15,Closed,P1,Vendor,Financial Advisors,8,76,1,133,3.4,0,REL-02
+HTS-0618,Trade Support,2026-07-16,Testing,P3,Release Testing,Compliance,72,48,0,132,6.6,0,REL-06
+HTS-0619,Public Finance CRM,2026-07-17,In Progress,P3,Service Center,Sales Support,72,36,0,180,2.7,1,REL-08
+HTS-0620,Client Reporting,2026-07-16,Testing,P1,Service Center,Operations,8,69,1,174,4.2,0,REL-07
+HTS-0621,Data Entitlements,2026-07-17,Closed,P4,Service Center,Public Finance,168,44,4,116,2.1,0,REL-05
+HTS-0622,Compliance Workflow,2026-07-14,Vendor Pending,P3,Vendor,Financial Advisors,72,99,0,129,6.6,0,REL-08
+HTS-0623,Trade Support,2026-07-14,Closed,P4,User Group,Operations,168,99,3,148,4.5,0,REL-04
+HTS-0624,Compliance Workflow,2026-07-16,Open,P3,User Group,Operations,72,71,0,148,6.1,1,REL-05
+HTS-0625,Data Entitlements,2026-07-15,Testing,P2,User Group,Sales Support,24,92,3,3,6.5,0,REL-01
+HTS-0626,Client Reporting,2026-07-17,In Progress,P4,User Group,Compliance,168,41,1,135,5.7,1,REL-04
+HTS-0627,Public Finance CRM,2026-07-17,Open,P1,User Group,Operations,8,40,5,60,6.7,0,REL-02
+HTS-0628,Advisor Portal,2026-07-17,Vendor Pending,P4,Service Center,Compliance,168,28,1,9,4.9,0,REL-06
+HTS-0629,Public Finance CRM,2026-07-17,Testing,P4,Vendor,Sales Support,168,33,2,21,5.7,0,REL-02
+HTS-0630,Advisor Portal,2026-07-15,Closed,P3,Service Center,Operations,72,73,2,18,6.4,0,REL-05
+HTS-0631,Advisor Portal,2026-07-16,Vendor Pending,P3,Service Center,Compliance,72,53,0,161,5.6,0,REL-01
+HTS-0632,Compliance Workflow,2026-07-16,Vendor Pending,P3,Service Center,Operations,72,56,1,87,4.9,0,REL-01
+HTS-0633,Trade Support,2026-07-18,Closed,P3,Service Center,Sales Support,72,14,0,110,4.4,0,REL-03
+HTS-0634,Data Entitlements,2026-07-17,Testing,P2,Service Center,Sales Support,24,40,2,40,4.3,0,REL-05
+HTS-0635,Data Entitlements,2026-07-18,Open,P3,Service Center,Sales Support,72,4,3,111,3.7,1,REL-04
+HTS-0636,Data Entitlements,2026-07-17,Testing,P4,Service Center,Public Finance,168,43,3,147,6.6,0,REL-07
+HTS-0637,Advisor Portal,2026-07-18,In Progress,P3,Release Testing,Financial Advisors,72,19,2,122,5.0,0,REL-06
+HTS-0638,Advisor Portal,2026-07-17,In Progress,P4,Service Center,Operations,168,46,1,39,3.5,0,REL-06
+HTS-0639,Trade Support,2026-07-18,Open,P1,Service Center,Financial Advisors,8,9,0,144,3.3,0,REL-03
+HTS-0640,Advisor Portal,2026-07-15,In Progress,P4,Service Center,Compliance,168,92,0,98,5.2,1,REL-07
+HTS-0641,Trade Support,2026-07-18,Testing,P4,Service Center,Compliance,168,14,2,84,4.9,1,REL-04
+HTS-0642,Compliance Workflow,2026-07-14,In Progress,P4,Service Center,Financial Advisors,168,116,0,74,6.2,1,REL-08
+HTS-0643,Data Entitlements,2026-07-18,Vendor Pending,P2,Service Center,Compliance,24,16,2,168,5.6,0,REL-08
+HTS-0644,Client Reporting,2026-07-14,Testing,P2,Service Center,Public Finance,24,100,1,166,6.4,0,REL-01
+HTS-0645,Client Reporting,2026-07-17,Closed,P2,User Group,Public Finance,24,32,0,24,2.7,0,REL-08
+HTS-0646,Compliance Workflow,2026-07-17,Vendor Pending,P3,Service Center,Compliance,72,32,1,97,5.9,0,REL-07
+HTS-0647,Advisor Portal,2026-07-16,In Progress,P1,Service Center,Sales Support,8,54,1,167,2.5,0,REL-04
+HTS-0648,Public Finance CRM,2026-07-17,In Progress,P2,Email,Public Finance,24,29,0,157,6.8,1,REL-05
+HTS-0649,Client Reporting,2026-07-17,Closed,P1,Vendor,Operations,8,38,1,134,6.7,1,REL-07
+HTS-0650,Trade Support,2026-07-14,In Progress,P2,Email,Compliance,24,103,2,121,3.7,0,REL-04
+HTS-0651,Advisor Portal,2026-07-16,In Progress,P3,User Group,Financial Advisors,72,53,0,5,4.4,0,REL-06
+HTS-0652,Client Reporting,2026-07-16,Testing,P3,User Group,Public Finance,72,51,0,8,4.8,0,REL-03
+HTS-0653,Compliance Workflow,2026-07-15,Vendor Pending,P2,Service Center,Compliance,24,82,0,103,2.4,0,REL-08
+HTS-0654,Public Finance CRM,2026-07-16,Open,P2,Service Center,Sales Support,24,71,0,179,4.9,0,REL-04
+HTS-0655,Advisor Portal,2026-07-17,In Progress,P2,Service Center,Operations,24,32,0,108,3.9,1,REL-03
+HTS-0656,Trade Support,2026-07-16,Open,P3,Service Center,Compliance,72,58,2,173,4.3,0,REL-05
+HTS-0657,Public Finance CRM,2026-07-16,Open,P3,Release Testing,Compliance,72,61,0,105,4.9,0,REL-06
+HTS-0658,Public Finance CRM,2026-07-15,Vendor Pending,P4,Release Testing,Public Finance,168,72,2,79,3.9,1,REL-03
+HTS-0659,Client Reporting,2026-07-17,In Progress,P3,Release Testing,Financial Advisors,72,27,2,27,3.9,1,REL-04
+HTS-0660,Compliance Workflow,2026-07-17,In Progress,P4,Release Testing,Financial Advisors,168,24,3,108,6.8,0,REL-06
+HTS-0661,Public Finance CRM,2026-07-18,In Progress,P2,Service Center,Financial Advisors,24,19,1,121,2.2,0,REL-08
+HTS-0662,Client Reporting,2026-07-14,Open,P3,Service Center,Financial Advisors,72,110,0,121,4.4,0,REL-04
+HTS-0663,Public Finance CRM,2026-07-16,Testing,P3,Service Center,Operations,72,53,1,48,3.5,0,REL-07
+HTS-0664,Trade Support,2026-07-17,Open,P2,Service Center,Sales Support,24,36,0,15,6.0,1,REL-02
+HTS-0665,Advisor Portal,2026-07-17,Open,P3,Service Center,Financial Advisors,72,39,4,98,6.4,0,REL-01
+HTS-0666,Trade Support,2026-07-17,Closed,P3,Service Center,Financial Advisors,72,28,2,14,4.1,0,REL-06
+HTS-0667,Compliance Workflow,2026-07-15,In Progress,P3,Service Center,Financial Advisors,72,81,0,94,3.6,0,REL-06
+HTS-0668,Data Entitlements,2026-07-17,Testing,P1,User Group,Public Finance,8,30,0,58,4.0,0,REL-08
+HTS-0669,Compliance Workflow,2026-07-18,Open,P4,Release Testing,Sales Support,168,18,0,164,5.4,0,REL-03
+HTS-0670,Public Finance CRM,2026-07-15,Closed,P3,User Group,Operations,72,83,0,158,6.4,0,REL-04
+HTS-0671,Advisor Portal,2026-07-18,In Progress,P3,Email,Financial Advisors,72,7,1,18,2.7,0,REL-04
+HTS-0672,Data Entitlements,2026-07-17,Testing,P2,Service Center,Compliance,24,41,1,76,5.6,0,REL-06
+HTS-0673,Data Entitlements,2026-07-17,Closed,P3,Vendor,Financial Advisors,72,29,1,100,4.6,0,REL-01
+HTS-0674,Advisor Portal,2026-07-16,Vendor Pending,P2,Service Center,Financial Advisors,24,60,0,47,4.9,1,REL-04
+HTS-0675,Public Finance CRM,2026-07-18,Open,P2,Service Center,Compliance,24,16,0,66,3.5,0,REL-04
+HTS-0676,Compliance Workflow,2026-07-17,Vendor Pending,P3,Service Center,Financial Advisors,72,25,2,126,2.2,0,REL-02
+HTS-0677,Public Finance CRM,2026-07-17,In Progress,P4,Service Center,Public Finance,168,24,0,158,4.4,0,REL-08
+HTS-0678,Public Finance CRM,2026-07-12,In Progress,P2,Release Testing,Compliance,24,166,5,98,3.9,0,REL-02
+HTS-0679,Client Reporting,2026-07-18,Closed,P3,Service Center,Compliance,72,10,4,92,4.5,0,REL-06
+HTS-0680,Data Entitlements,2026-07-15,Open,P3,Service Center,Public Finance,72,86,1,176,2.2,0,REL-03
+HTS-0681,Public Finance CRM,2026-07-16,Open,P3,User Group,Financial Advisors,72,55,0,26,5.1,1,REL-07
+HTS-0682,Trade Support,2026-07-10,Testing,P3,Service Center,Public Finance,72,215,1,139,5.2,0,REL-05
+HTS-0683,Advisor Portal,2026-07-14,Open,P3,User Group,Public Finance,72,112,2,71,5.6,1,REL-07
+HTS-0684,Data Entitlements,2026-07-16,In Progress,P3,Service Center,Public Finance,72,60,2,46,2.9,0,REL-03
+HTS-0685,Client Reporting,2026-07-17,Vendor Pending,P2,Service Center,Financial Advisors,24,27,0,49,5.9,0,REL-07
+HTS-0686,Advisor Portal,2026-07-15,In Progress,P3,Service Center,Public Finance,72,83,0,63,4.3,0,REL-02
+HTS-0687,Data Entitlements,2026-07-17,Vendor Pending,P1,Release Testing,Operations,8,35,0,4,3.9,0,REL-05
+HTS-0688,Client Reporting,2026-07-16,In Progress,P4,User Group,Public Finance,168,58,5,64,6.5,0,REL-07
+HTS-0689,Advisor Portal,2026-07-12,Vendor Pending,P3,Vendor,Public Finance,72,148,4,66,3.8,0,REL-08
+HTS-0690,Public Finance CRM,2026-07-15,Open,P3,Service Center,Operations,72,83,4,86,5.3,0,REL-08
+HTS-0691,Client Reporting,2026-07-15,Closed,P3,Release Testing,Compliance,72,78,5,28,5.6,0,REL-04
+HTS-0692,Data Entitlements,2026-07-11,In Progress,P3,Service Center,Operations,72,172,0,175,6.8,1,REL-08
+HTS-0693,Data Entitlements,2026-07-16,In Progress,P2,Service Center,Financial Advisors,24,54,2,171,5.4,0,REL-01
+HTS-0694,Public Finance CRM,2026-07-08,Open,P2,Service Center,Compliance,24,248,4,174,2.7,0,REL-08
+HTS-0695,Compliance Workflow,2026-07-15,Testing,P2,User Group,Public Finance,24,95,0,100,5.2,1,REL-07
+HTS-0696,Advisor Portal,2026-07-17,Open,P4,Service Center,Sales Support,168,31,4,32,4.8,0,REL-06
+HTS-0697,Client Reporting,2026-07-18,Closed,P4,Service Center,Public Finance,168,14,2,35,4.5,0,REL-04
+HTS-0698,Public Finance CRM,2026-07-18,Open,P2,Release Testing,Financial Advisors,24,4,1,119,2.8,0,REL-01
+HTS-0699,Advisor Portal,2026-07-17,In Progress,P3,Vendor,Sales Support,72,39,1,58,4.4,0,REL-07
+HTS-0700,Trade Support,2026-07-14,Testing,P2,Service Center,Financial Advisors,24,101,3,103,3.5,1,REL-03
+HTS-0701,Data Entitlements,2026-07-16,In Progress,P4,Service Center,Compliance,168,68,0,138,5.5,0,REL-04
+HTS-0702,Public Finance CRM,2026-07-16,Testing,P3,User Group,Operations,72,68,3,80,4.3,0,REL-03
+HTS-0703,Trade Support,2026-07-16,Open,P3,Email,Operations,72,59,0,150,2.6,1,REL-03
+HTS-0704,Public Finance CRM,2026-07-17,Closed,P3,Service Center,Operations,72,25,0,134,5.2,0,REL-03
+HTS-0705,Trade Support,2026-07-16,In Progress,P3,Service Center,Sales Support,72,49,4,170,5.6,0,REL-02
+HTS-0706,Public Finance CRM,2026-07-11,Vendor Pending,P4,Service Center,Operations,168,168,0,24,2.7,0,REL-04
+HTS-0707,Public Finance CRM,2026-07-15,Testing,P1,Service Center,Sales Support,8,72,0,126,6.8,0,REL-05
+HTS-0708,Advisor Portal,2026-07-17,In Progress,P3,Vendor,Sales Support,72,27,1,135,6.0,0,REL-02
+HTS-0709,Advisor Portal,2026-07-17,Open,P4,User Group,Financial Advisors,168,29,0,117,5.9,0,REL-03
+HTS-0710,Public Finance CRM,2026-07-15,Closed,P3,Service Center,Operations,72,86,1,96,6.6,0,REL-01
+HTS-0711,Public Finance CRM,2026-07-18,Vendor Pending,P2,Service Center,Sales Support,24,11,1,83,4.6,1,REL-06
+HTS-0712,Data Entitlements,2026-07-16,Testing,P3,Service Center,Financial Advisors,72,63,0,58,6.6,0,REL-04
+HTS-0713,Client Reporting,2026-07-17,Open,P3,Service Center,Compliance,72,36,1,44,4.0,0,REL-05
+HTS-0714,Public Finance CRM,2026-07-17,Closed,P3,User Group,Financial Advisors,72,29,2,147,5.2,1,REL-03
+HTS-0715,Client Reporting,2026-07-17,In Progress,P3,Release Testing,Financial Advisors,72,24,0,34,4.6,0,REL-07
+HTS-0716,Public Finance CRM,2026-07-15,Testing,P2,Service Center,Financial Advisors,24,84,0,28,3.9,1,REL-07
+HTS-0717,Compliance Workflow,2026-07-16,Testing,P4,Service Center,Sales Support,168,65,0,149,6.2,0,REL-02
+HTS-0718,Client Reporting,2026-07-17,Open,P4,Vendor,Sales Support,168,26,1,106,4.3,0,REL-01
+HTS-0719,Trade Support,2026-07-14,In Progress,P3,Email,Operations,72,100,3,166,6.7,0,REL-04
+HTS-0720,Client Reporting,2026-07-16,Closed,P3,Email,Sales Support,72,51,0,112,4.5,0,REL-04
+HTS-0721,Client Reporting,2026-07-12,Testing,P3,Vendor,Operations,72,163,0,64,6.5,0,REL-01
+HTS-0722,Advisor Portal,2026-07-17,Closed,P2,Service Center,Sales Support,24,37,4,37,4.4,0,REL-02
+HTS-0723,Data Entitlements,2026-07-15,Open,P3,Service Center,Sales Support,72,79,2,65,6.8,0,REL-01
+HTS-0724,Trade Support,2026-07-17,In Progress,P3,Release Testing,Compliance,72,31,1,46,3.9,0,REL-04
+HTS-0725,Public Finance CRM,2026-07-12,In Progress,P4,Service Center,Financial Advisors,168,158,0,164,4.8,0,REL-05
+HTS-0726,Compliance Workflow,2026-07-10,Testing,P4,Service Center,Operations,168,195,1,87,3.5,0,REL-06
+HTS-0727,Advisor Portal,2026-07-17,In Progress,P4,Service Center,Sales Support,168,27,1,42,4.0,1,REL-01
+HTS-0728,Client Reporting,2026-07-15,In Progress,P2,Service Center,Financial Advisors,24,87,1,71,2.6,0,REL-08
+HTS-0729,Public Finance CRM,2026-07-17,Closed,P2,Email,Operations,24,44,0,13,2.7,0,REL-06
+HTS-0730,Client Reporting,2026-07-17,Closed,P4,Release Testing,Operations,168,25,1,143,4.4,0,REL-03
+HTS-0731,Compliance Workflow,2026-07-14,Testing,P3,Email,Compliance,72,116,0,30,5.8,0,REL-06
+HTS-0732,Data Entitlements,2026-07-14,Testing,P3,Service Center,Sales Support,72,117,2,114,4.4,0,REL-02
+HTS-0733,Compliance Workflow,2026-07-17,Open,P4,Service Center,Operations,168,33,3,66,5.2,0,REL-08
+HTS-0734,Compliance Workflow,2026-07-13,Vendor Pending,P3,Service Center,Sales Support,72,135,1,41,3.2,0,REL-01
+HTS-0735,Advisor Portal,2026-07-17,Vendor Pending,P3,Service Center,Operations,72,28,0,137,3.5,0,REL-04
+HTS-0736,Client Reporting,2026-07-16,Vendor Pending,P2,Service Center,Public Finance,24,52,0,92,5.4,0,REL-01
+HTS-0737,Public Finance CRM,2026-07-18,Open,P2,Service Center,Sales Support,24,2,0,50,3.3,0,REL-06
+HTS-0738,Public Finance CRM,2026-07-16,In Progress,P3,Vendor,Sales Support,72,68,1,98,3.2,0,REL-07
+HTS-0739,Compliance Workflow,2026-07-18,Open,P2,User Group,Financial Advisors,24,19,0,117,6.4,0,REL-06
+HTS-0740,Compliance Workflow,2026-07-16,Testing,P3,Service Center,Financial Advisors,72,58,0,67,6.3,0,REL-06
+HTS-0741,Client Reporting,2026-07-16,Open,P4,Service Center,Sales Support,168,55,2,45,4.9,0,REL-03
+HTS-0742,Compliance Workflow,2026-07-13,Closed,P3,Release Testing,Financial Advisors,72,137,1,133,3.9,0,REL-07
+HTS-0743,Advisor Portal,2026-07-15,Closed,P3,Email,Compliance,72,72,1,137,3.3,1,REL-05
+HTS-0744,Advisor Portal,2026-07-16,In Progress,P3,Service Center,Financial Advisors,72,69,4,74,6.5,0,REL-01
+HTS-0745,Compliance Workflow,2026-07-17,Open,P3,User Group,Sales Support,72,33,5,86,2.5,0,REL-05
+HTS-0746,Public Finance CRM,2026-07-16,Closed,P3,User Group,Operations,72,50,2,59,5.5,0,REL-05
+HTS-0747,Compliance Workflow,2026-07-16,Open,P4,Email,Compliance,168,66,4,68,6.2,0,REL-04
+HTS-0748,Compliance Workflow,2026-07-17,Vendor Pending,P4,Vendor,Compliance,168,31,0,62,5.5,0,REL-03
+HTS-0749,Trade Support,2026-07-18,Testing,P4,Service Center,Sales Support,168,17,1,49,5.1,0,REL-03
+HTS-0750,Trade Support,2026-07-13,Open,P4,Service Center,Financial Advisors,168,138,1,168,6.7,0,REL-03
+HTS-0751,Client Reporting,2026-07-13,In Progress,P3,Service Center,Operations,72,134,2,167,6.5,0,REL-02
+HTS-0752,Public Finance CRM,2026-07-13,Closed,P3,Service Center,Financial Advisors,72,127,1,147,6.3,1,REL-05
+HTS-0753,Data Entitlements,2026-07-17,In Progress,P3,Service Center,Operations,72,24,2,29,4.7,0,REL-07
+HTS-0754,Data Entitlements,2026-07-16,In Progress,P2,Release Testing,Compliance,24,52,2,31,4.4,1,REL-04
+HTS-0755,Advisor Portal,2026-07-15,Closed,P2,User Group,Financial Advisors,24,79,1,88,4.9,0,REL-03
+HTS-0756,Public Finance CRM,2026-07-15,In Progress,P4,Service Center,Compliance,168,94,1,70,5.9,0,REL-02
+HTS-0757,Data Entitlements,2026-07-12,Open,P4,Service Center,Compliance,168,166,2,125,5.9,0,REL-07
+HTS-0758,Trade Support,2026-07-17,Open,P4,Service Center,Public Finance,168,36,1,126,5.4,0,REL-06
+HTS-0759,Compliance Workflow,2026-07-17,In Progress,P2,Service Center,Financial Advisors,24,47,0,151,5.5,0,REL-04
+HTS-0760,Advisor Portal,2026-07-16,Open,P3,Service Center,Financial Advisors,72,69,0,39,6.0,0,REL-07
+HTS-0761,Data Entitlements,2026-07-18,Open,P2,Email,Compliance,24,22,0,30,5.2,0,REL-03
+HTS-0762,Advisor Portal,2026-07-17,Open,P1,Vendor,Compliance,8,45,0,49,4.3,0,REL-05
+HTS-0763,Data Entitlements,2026-07-14,Testing,P3,Service Center,Financial Advisors,72,103,0,167,2.3,0,REL-03
+HTS-0764,Client Reporting,2026-07-12,Vendor Pending,P1,Vendor,Sales Support,8,147,1,61,4.1,0,REL-02
+HTS-0765,Trade Support,2026-07-17,In Progress,P3,Vendor,Sales Support,72,30,1,22,5.9,0,REL-06
+HTS-0766,Advisor Portal,2026-07-16,Testing,P3,User Group,Financial Advisors,72,50,0,29,2.5,0,REL-06
+HTS-0767,Advisor Portal,2026-07-17,Open,P1,Service Center,Public Finance,8,37,0,54,5.1,0,REL-05
+HTS-0768,Client Reporting,2026-07-16,Open,P2,Service Center,Public Finance,24,71,0,94,5.6,1,REL-04
+HTS-0769,Trade Support,2026-07-16,Testing,P3,Service Center,Compliance,72,48,3,131,2.6,1,REL-03
+HTS-0770,Advisor Portal,2026-07-13,In Progress,P1,Service Center,Compliance,8,128,0,163,2.5,0,REL-04
+HTS-0771,Trade Support,2026-07-15,Closed,P4,Service Center,Sales Support,168,87,1,90,4.2,0,REL-05
+HTS-0772,Client Reporting,2026-07-10,Open,P3,Release Testing,Sales Support,72,192,0,42,4.8,1,REL-02
+HTS-0773,Compliance Workflow,2026-07-18,Closed,P4,Email,Operations,168,23,1,119,3.6,1,REL-03
+HTS-0774,Advisor Portal,2026-07-15,Open,P2,Email,Public Finance,24,72,5,68,5.7,0,REL-03
+HTS-0775,Client Reporting,2026-07-17,Closed,P4,Release Testing,Financial Advisors,168,45,1,134,6.1,1,REL-06
+HTS-0776,Data Entitlements,2026-07-16,Open,P2,Release Testing,Operations,24,50,2,65,5.4,0,REL-03
+HTS-0777,Client Reporting,2026-07-17,Closed,P4,Service Center,Compliance,168,37,1,92,4.3,0,REL-08
+HTS-0778,Client Reporting,2026-07-17,Testing,P2,Service Center,Public Finance,24,27,0,90,6.8,0,REL-08
+HTS-0779,Client Reporting,2026-07-16,Open,P2,Service Center,Sales Support,24,55,0,156,5.7,0,REL-06
+HTS-0780,Public Finance CRM,2026-07-14,Vendor Pending,P4,Service Center,Operations,168,114,0,23,3.5,0,REL-07
+HTS-0781,Advisor Portal,2026-07-15,Open,P3,Release Testing,Public Finance,72,90,4,79,2.9,0,REL-07
+HTS-0782,Data Entitlements,2026-07-16,In Progress,P3,Release Testing,Sales Support,72,66,0,5,4.7,1,REL-04
+HTS-0783,Public Finance CRM,2026-07-15,Vendor Pending,P2,Vendor,Public Finance,24,89,0,120,6.5,0,REL-06
+HTS-0784,Client Reporting,2026-07-16,Closed,P2,Vendor,Compliance,24,64,1,151,2.6,0,REL-04
+HTS-0785,Client Reporting,2026-07-16,Open,P3,Service Center,Financial Advisors,72,68,5,150,6.6,0,REL-06
+HTS-0786,Data Entitlements,2026-07-11,Closed,P1,Service Center,Public Finance,8,170,0,141,4.1,1,REL-06
+HTS-0787,Trade Support,2026-07-17,Vendor Pending,P2,Service Center,Compliance,24,26,0,171,5.3,0,REL-05
+HTS-0788,Advisor Portal,2026-07-18,Open,P3,Service Center,Compliance,72,18,0,162,6.5,0,REL-08
+HTS-0789,Client Reporting,2026-07-13,Open,P3,Email,Sales Support,72,133,0,53,6.1,1,REL-06
+HTS-0790,Data Entitlements,2026-07-13,In Progress,P4,Release Testing,Financial Advisors,168,140,1,71,6.2,0,REL-07
+HTS-0791,Advisor Portal,2026-07-18,Open,P3,Service Center,Public Finance,72,3,3,135,6.0,0,REL-06
+HTS-0792,Compliance Workflow,2026-07-15,Closed,P2,Service Center,Compliance,24,72,2,150,4.1,1,REL-07
+HTS-0793,Compliance Workflow,2026-07-17,Open,P4,Service Center,Financial Advisors,168,26,1,164,4.8,0,REL-05
+HTS-0794,Advisor Portal,2026-07-17,Open,P4,Service Center,Sales Support,168,24,0,161,5.4,1,REL-02
+HTS-0795,Client Reporting,2026-07-18,Vendor Pending,P3,Email,Financial Advisors,72,8,0,59,3.5,0,REL-04
+HTS-0796,Public Finance CRM,2026-07-13,Vendor Pending,P3,Service Center,Financial Advisors,72,133,1,166,6.7,1,REL-02
+HTS-0797,Public Finance CRM,2026-07-15,In Progress,P3,Service Center,Operations,72,76,1,95,6.4,0,REL-02
+HTS-0798,Public Finance CRM,2026-07-15,Vendor Pending,P3,Service Center,Financial Advisors,72,94,0,5,6.3,0,REL-01
+HTS-0799,Compliance Workflow,2026-07-17,Vendor Pending,P2,Service Center,Sales Support,24,43,2,34,3.0,0,REL-01
+HTS-0800,Public Finance CRM,2026-07-14,Open,P3,Service Center,Public Finance,72,115,0,24,5.5,1,REL-05
+HTS-0801,Data Entitlements,2026-07-17,Vendor Pending,P3,Service Center,Compliance,72,28,1,105,6.4,0,REL-04
+HTS-0802,Compliance Workflow,2026-07-16,In Progress,P3,Email,Compliance,72,48,1,117,4.1,0,REL-06
+HTS-0803,Compliance Workflow,2026-07-15,In Progress,P3,Release Testing,Operations,72,78,1,11,6.6,0,REL-07
+HTS-0804,Compliance Workflow,2026-07-13,In Progress,P3,Service Center,Financial Advisors,72,143,2,112,5.8,0,REL-02
+HTS-0805,Public Finance CRM,2026-07-17,Open,P2,Service Center,Operations,24,46,2,57,4.3,1,REL-04
+HTS-0806,Compliance Workflow,2026-07-17,Open,P3,User Group,Sales Support,72,47,4,174,2.5,1,REL-07
+HTS-0807,Trade Support,2026-07-16,Open,P3,Vendor,Compliance,72,53,0,73,4.1,0,REL-03
+HTS-0808,Advisor Portal,2026-07-15,In Progress,P3,User Group,Sales Support,72,75,5,121,3.4,1,REL-07
+HTS-0809,Public Finance CRM,2026-07-16,Vendor Pending,P1,Service Center,Operations,8,66,2,109,5.5,0,REL-06
+HTS-0810,Compliance Workflow,2026-07-16,Open,P3,Service Center,Compliance,72,69,1,167,6.6,0,REL-06
+HTS-0811,Advisor Portal,2026-07-18,Open,P4,Release Testing,Compliance,168,19,0,25,3.0,1,REL-06
+HTS-0812,Data Entitlements,2026-07-16,Closed,P4,Service Center,Operations,168,66,0,80,2.5,0,REL-07
+HTS-0813,Client Reporting,2026-07-17,Open,P3,Service Center,Financial Advisors,72,26,2,108,5.1,0,REL-04
+HTS-0814,Public Finance CRM,2026-07-15,Testing,P3,Service Center,Operations,72,88,0,78,5.4,0,REL-04
+HTS-0815,Advisor Portal,2026-07-14,Open,P3,Service Center,Financial Advisors,72,107,0,58,4.3,0,REL-08
+HTS-0816,Compliance Workflow,2026-07-17,In Progress,P2,Service Center,Public Finance,24,29,2,170,2.8,0,REL-03
+HTS-0817,Compliance Workflow,2026-07-17,In Progress,P2,Email,Financial Advisors,24,45,0,111,2.9,0,REL-02
+HTS-0818,Trade Support,2026-07-11,Open,P2,Service Center,Public Finance,24,178,0,172,4.6,0,REL-02
+HTS-0819,Trade Support,2026-07-18,In Progress,P4,Service Center,Public Finance,168,16,0,72,3.8,0,REL-07
+HTS-0820,Client Reporting,2026-07-16,Open,P3,Service Center,Sales Support,72,52,1,113,2.6,0,REL-04
+HTS-0821,Advisor Portal,2026-07-17,Vendor Pending,P4,Service Center,Sales Support,168,30,0,60,6.2,0,REL-07
+HTS-0822,Data Entitlements,2026-07-18,In Progress,P3,Service Center,Financial Advisors,72,18,0,76,5.4,0,REL-01
+HTS-0823,Client Reporting,2026-07-16,Testing,P2,Vendor,Financial Advisors,24,62,0,177,2.4,0,REL-08
+HTS-0824,Public Finance CRM,2026-07-18,Open,P2,Release Testing,Operations,24,5,0,5,4.9,1,REL-01
+HTS-0825,Advisor Portal,2026-07-17,Vendor Pending,P3,Release Testing,Financial Advisors,72,33,1,45,5.6,0,REL-02
+HTS-0826,Data Entitlements,2026-07-14,In Progress,P3,Service Center,Compliance,72,107,0,120,2.2,0,REL-06
+HTS-0827,Compliance Workflow,2026-07-13,In Progress,P4,Service Center,Sales Support,168,120,2,8,2.8,0,REL-04
+HTS-0828,Trade Support,2026-07-18,Vendor Pending,P3,User Group,Compliance,72,23,0,25,3.0,1,REL-02
+HTS-0829,Client Reporting,2026-07-11,Closed,P4,Vendor,Financial Advisors,168,178,0,176,3.7,0,REL-07
+HTS-0830,Compliance Workflow,2026-07-17,In Progress,P4,Service Center,Sales Support,168,36,0,119,4.8,1,REL-06
+HTS-0831,Trade Support,2026-07-15,In Progress,P3,Service Center,Sales Support,72,93,1,80,4.4,0,REL-05
+HTS-0832,Compliance Workflow,2026-07-18,Open,P1,Service Center,Operations,8,11,1,172,6.0,0,REL-03
+HTS-0833,Data Entitlements,2026-07-17,Closed,P3,User Group,Operations,72,37,2,39,6.8,0,REL-02
+HTS-0834,Trade Support,2026-07-18,Testing,P3,User Group,Compliance,72,9,0,28,6.3,1,REL-05
+HTS-0835,Compliance Workflow,2026-07-16,Open,P2,Email,Public Finance,24,53,0,144,3.0,0,REL-05
+HTS-0836,Client Reporting,2026-07-15,Testing,P3,Vendor,Operations,72,81,0,116,5.4,0,REL-06
+HTS-0837,Client Reporting,2026-07-16,In Progress,P3,Release Testing,Operations,72,52,4,110,2.5,0,REL-05
+HTS-0838,Compliance Workflow,2026-07-15,In Progress,P4,User Group,Public Finance,168,73,0,103,2.7,0,REL-08
+HTS-0839,Public Finance CRM,2026-07-12,Vendor Pending,P4,Vendor,Sales Support,168,145,1,87,6.2,0,REL-01
+HTS-0840,Client Reporting,2026-07-16,Open,P3,Release Testing,Financial Advisors,72,63,0,82,5.5,1,REL-08
+HTS-0841,Trade Support,2026-07-17,Vendor Pending,P3,Service Center,Operations,72,29,0,29,4.3,1,REL-08
+HTS-0842,Trade Support,2026-07-16,Testing,P3,Service Center,Sales Support,72,59,2,171,5.0,0,REL-01
+HTS-0843,Trade Support,2026-07-13,In Progress,P2,User Group,Financial Advisors,24,139,1,77,3.5,0,REL-08
+HTS-0844,Advisor Portal,2026-07-17,In Progress,P3,Vendor,Financial Advisors,72,36,0,120,2.7,0,REL-05
+HTS-0845,Client Reporting,2026-07-15,Open,P1,Release Testing,Financial Advisors,8,86,1,120,3.4,1,REL-06
+HTS-0846,Trade Support,2026-07-16,In Progress,P3,Email,Public Finance,72,63,1,38,3.4,0,REL-05
+HTS-0847,Client Reporting,2026-07-18,In Progress,P4,Service Center,Financial Advisors,168,14,1,132,5.7,0,REL-03
+HTS-0848,Compliance Workflow,2026-07-15,Vendor Pending,P3,Service Center,Operations,72,74,0,43,3.2,0,REL-08
+HTS-0849,Data Entitlements,2026-07-16,Testing,P4,Service Center,Financial Advisors,168,58,2,101,5.7,0,REL-02
+HTS-0850,Data Entitlements,2026-07-17,Open,P2,Email,Sales Support,24,33,1,10,6.4,0,REL-08
+HTS-0851,Client Reporting,2026-07-17,Testing,P3,Service Center,Financial Advisors,72,29,1,138,5.9,0,REL-01
+HTS-0852,Trade Support,2026-07-15,Closed,P3,Service Center,Compliance,72,90,1,21,3.7,0,REL-08
+HTS-0853,Compliance Workflow,2026-07-17,In Progress,P2,User Group,Sales Support,24,29,3,20,4.2,0,REL-02
+HTS-0854,Advisor Portal,2026-07-18,Open,P3,Service Center,Sales Support,72,21,1,8,3.2,1,REL-05
+HTS-0855,Trade Support,2026-07-17,Closed,P3,Service Center,Sales Support,72,44,0,135,6.5,0,REL-07
+HTS-0856,Compliance Workflow,2026-07-16,In Progress,P3,Release Testing,Public Finance,72,68,1,11,3.7,0,REL-06
+HTS-0857,Data Entitlements,2026-07-18,In Progress,P4,Email,Operations,168,13,0,21,5.9,0,REL-01
+HTS-0858,Data Entitlements,2026-07-18,Vendor Pending,P3,Service Center,Sales Support,72,15,1,36,3.4,0,REL-01
+HTS-0859,Client Reporting,2026-07-17,In Progress,P3,Vendor,Financial Advisors,72,31,0,17,2.2,1,REL-04
+HTS-0860,Data Entitlements,2026-07-12,Open,P3,Service Center,Compliance,72,165,2,35,4.1,0,REL-03
+HTS-0861,Public Finance CRM,2026-07-18,In Progress,P2,Service Center,Operations,24,20,0,26,4.9,0,REL-01
+HTS-0862,Advisor Portal,2026-07-18,Open,P4,Service Center,Financial Advisors,168,6,0,83,3.7,0,REL-04
+HTS-0863,Data Entitlements,2026-07-18,Open,P4,Service Center,Public Finance,168,21,4,55,4.4,0,REL-06
+HTS-0864,Compliance Workflow,2026-07-17,In Progress,P4,User Group,Sales Support,168,39,3,84,5.4,0,REL-01
+HTS-0865,Client Reporting,2026-07-16,In Progress,P3,Service Center,Financial Advisors,72,50,3,136,3.2,0,REL-04
+HTS-0866,Advisor Portal,2026-07-14,Closed,P2,User Group,Compliance,24,104,4,8,4.4,0,REL-05
+HTS-0867,Advisor Portal,2026-07-17,In Progress,P3,User Group,Compliance,72,38,0,100,3.9,0,REL-04
+HTS-0868,Data Entitlements,2026-07-15,In Progress,P3,Service Center,Public Finance,72,88,4,158,5.6,0,REL-05
+HTS-0869,Public Finance CRM,2026-07-15,Testing,P4,User Group,Compliance,168,75,2,17,5.9,0,REL-05
+HTS-0870,Compliance Workflow,2026-07-15,In Progress,P4,Release Testing,Compliance,168,72,2,63,2.7,0,REL-05
+HTS-0871,Public Finance CRM,2026-07-17,Vendor Pending,P2,Service Center,Public Finance,24,33,0,171,3.3,0,REL-01
+HTS-0872,Public Finance CRM,2026-07-16,Testing,P2,Service Center,Operations,24,71,1,122,2.3,0,REL-04
+HTS-0873,Compliance Workflow,2026-07-15,Vendor Pending,P3,Release Testing,Compliance,72,73,0,73,3.3,0,REL-04
+HTS-0874,Advisor Portal,2026-07-18,Open,P3,User Group,Financial Advisors,72,23,2,115,4.8,0,REL-04
+HTS-0875,Public Finance CRM,2026-07-14,Open,P2,Vendor,Public Finance,24,101,1,14,4.9,0,REL-02
+HTS-0876,Trade Support,2026-07-18,In Progress,P3,Service Center,Compliance,72,20,0,112,6.2,0,REL-06
+HTS-0877,Data Entitlements,2026-07-17,In Progress,P3,Release Testing,Public Finance,72,45,1,44,3.8,0,REL-03
+HTS-0878,Public Finance CRM,2026-07-18,In Progress,P4,Email,Sales Support,168,8,2,91,6.5,0,REL-01
+HTS-0879,Data Entitlements,2026-07-17,Open,P3,Service Center,Financial Advisors,72,24,1,150,5.1,0,REL-02
+HTS-0880,Client Reporting,2026-07-16,Vendor Pending,P4,Service Center,Public Finance,168,65,0,150,3.5,0,REL-04
+HTS-0881,Data Entitlements,2026-07-17,Open,P4,Email,Compliance,168,40,0,93,4.7,0,REL-06
+HTS-0882,Client Reporting,2026-07-15,Open,P3,Vendor,Financial Advisors,72,77,4,65,5.7,0,REL-03
+HTS-0883,Advisor Portal,2026-07-13,Open,P3,Service Center,Financial Advisors,72,128,1,164,6.2,0,REL-03
+HTS-0884,Client Reporting,2026-07-17,Testing,P4,Service Center,Operations,168,35,3,9,5.3,1,REL-03
+HTS-0885,Client Reporting,2026-07-16,In Progress,P3,Service Center,Sales Support,72,65,0,78,2.7,1,REL-06
+HTS-0886,Advisor Portal,2026-07-15,Open,P3,Release Testing,Compliance,72,79,3,164,4.2,1,REL-05
+HTS-0887,Data Entitlements,2026-07-14,Testing,P4,Release Testing,Sales Support,168,97,0,4,4.9,0,REL-08
+HTS-0888,Compliance Workflow,2026-07-16,In Progress,P3,Email,Financial Advisors,72,53,0,90,2.3,0,REL-07
+HTS-0889,Trade Support,2026-07-17,Open,P3,Release Testing,Financial Advisors,72,47,1,74,4.8,0,REL-02
+HTS-0890,Client Reporting,2026-07-17,In Progress,P3,Release Testing,Public Finance,72,25,4,69,6.7,0,REL-04
+HTS-0891,Compliance Workflow,2026-07-18,Testing,P3,Service Center,Operations,72,23,4,141,4.6,0,REL-08
+HTS-0892,Compliance Workflow,2026-07-18,In Progress,P4,Service Center,Financial Advisors,168,8,3,78,6.4,0,REL-02
+HTS-0893,Trade Support,2026-07-16,Closed,P3,Email,Operations,72,53,4,23,5.6,0,REL-02
+HTS-0894,Data Entitlements,2026-07-16,Testing,P3,User Group,Operations,72,62,2,83,6.3,0,REL-02
+HTS-0895,Compliance Workflow,2026-07-13,Vendor Pending,P4,Vendor,Operations,168,128,4,163,2.1,0,REL-07
+HTS-0896,Client Reporting,2026-07-17,Open,P4,Vendor,Compliance,168,31,0,53,5.1,0,REL-04
+HTS-0897,Trade Support,2026-07-18,Testing,P1,Service Center,Public Finance,8,14,1,164,4.8,0,REL-08
+HTS-0898,Data Entitlements,2026-07-12,In Progress,P3,Email,Compliance,72,151,1,142,4.4,0,REL-02
+HTS-0899,Client Reporting,2026-07-10,Closed,P4,Service Center,Compliance,168,199,0,121,6.6,0,REL-06
+HTS-0900,Client Reporting,2026-07-14,Testing,P3,Vendor,Sales Support,72,98,0,63,2.2,0,REL-04
+HTS-0901,Public Finance CRM,2026-07-14,In Progress,P4,Vendor,Compliance,168,119,0,16,3.4,0,REL-06
+HTS-0902,Trade Support,2026-07-18,Vendor Pending,P3,Service Center,Financial Advisors,72,11,2,31,6.6,0,REL-06
+HTS-0903,Advisor Portal,2026-07-16,Testing,P2,Service Center,Public Finance,24,67,3,144,2.4,0,REL-04
+HTS-0904,Compliance Workflow,2026-07-17,In Progress,P3,Email,Public Finance,72,28,2,98,3.7,0,REL-04
+HTS-0905,Trade Support,2026-07-16,In Progress,P4,Service Center,Financial Advisors,168,49,0,34,5.9,0,REL-07
+HTS-0906,Advisor Portal,2026-07-14,Open,P2,Service Center,Compliance,24,108,0,141,4.9,0,REL-07
+HTS-0907,Public Finance CRM,2026-07-15,In Progress,P2,Email,Public Finance,24,77,0,54,2.6,1,REL-08
+HTS-0908,Client Reporting,2026-07-16,Vendor Pending,P3,Service Center,Sales Support,72,52,1,100,2.2,0,REL-07
+HTS-0909,Client Reporting,2026-07-14,Open,P4,Release Testing,Compliance,168,116,2,117,3.8,0,REL-05
+HTS-0910,Advisor Portal,2026-07-13,Vendor Pending,P3,Service Center,Compliance,72,135,1,24,2.8,0,REL-08
+HTS-0911,Advisor Portal,2026-07-12,Testing,P3,Service Center,Public Finance,72,151,2,41,2.3,0,REL-07
+HTS-0912,Compliance Workflow,2026-07-17,Testing,P4,Service Center,Public Finance,168,35,4,63,3.6,0,REL-02
+HTS-0913,Trade Support,2026-07-16,Testing,P4,Service Center,Operations,168,52,0,115,6.2,0,REL-07
+HTS-0914,Trade Support,2026-07-15,Testing,P3,Service Center,Compliance,72,81,0,33,4.1,0,REL-05
+HTS-0915,Data Entitlements,2026-07-15,Open,P3,Service Center,Financial Advisors,72,79,2,98,4.5,0,REL-08
+HTS-0916,Trade Support,2026-07-17,Open,P2,Email,Compliance,24,41,0,109,2.9,0,REL-01
+HTS-0917,Compliance Workflow,2026-07-17,In Progress,P3,Service Center,Sales Support,72,27,1,43,2.4,0,REL-04
+HTS-0918,Public Finance CRM,2026-07-18,Testing,P3,Vendor,Sales Support,72,6,2,97,5.0,0,REL-05
+HTS-0919,Compliance Workflow,2026-07-15,Open,P3,Email,Public Finance,72,84,0,147,2.6,1,REL-07
+HTS-0920,Public Finance CRM,2026-07-14,Closed,P3,Email,Sales Support,72,119,1,124,3.1,0,REL-04
+HTS-0921,Trade Support,2026-07-18,Open,P4,Service Center,Operations,168,17,0,16,2.7,1,REL-07
+HTS-0922,Advisor Portal,2026-07-17,Open,P3,Service Center,Compliance,72,41,2,93,3.6,0,REL-02
+HTS-0923,Data Entitlements,2026-07-12,Testing,P4,Email,Compliance,168,152,1,128,5.4,0,REL-02
+HTS-0924,Advisor Portal,2026-07-16,Closed,P3,Vendor,Public Finance,72,53,2,57,5.0,1,REL-04
+HTS-0925,Advisor Portal,2026-07-17,Open,P3,Service Center,Financial Advisors,72,26,0,82,3.6,1,REL-05
+HTS-0926,Data Entitlements,2026-07-18,In Progress,P3,Service Center,Operations,72,5,5,67,3.4,0,REL-01
+HTS-0927,Data Entitlements,2026-07-08,In Progress,P4,Service Center,Sales Support,168,245,2,12,3.8,0,REL-03
+HTS-0928,Advisor Portal,2026-07-17,In Progress,P3,Vendor,Operations,72,26,1,18,3.6,1,REL-05
+HTS-0929,Advisor Portal,2026-07-17,In Progress,P4,User Group,Public Finance,168,28,3,46,6.4,0,REL-06
+HTS-0930,Advisor Portal,2026-07-12,Open,P3,Email,Financial Advisors,72,150,2,24,2.9,0,REL-04
+HTS-0931,Advisor Portal,2026-07-16,In Progress,P3,User Group,Operations,72,50,0,148,6.0,0,REL-08
+HTS-0932,Data Entitlements,2026-07-18,Closed,P2,Email,Operations,24,17,0,98,4.3,1,REL-04
+HTS-0933,Trade Support,2026-07-15,Testing,P3,Email,Public Finance,72,92,0,76,2.9,0,REL-06
+HTS-0934,Public Finance CRM,2026-07-17,Testing,P3,Service Center,Compliance,72,28,0,96,3.7,0,REL-08
+HTS-0935,Compliance Workflow,2026-07-15,In Progress,P4,Service Center,Financial Advisors,168,94,5,114,3.7,1,REL-05
+HTS-0936,Data Entitlements,2026-07-14,Testing,P2,Service Center,Financial Advisors,24,97,0,122,3.3,1,REL-03
+HTS-0937,Compliance Workflow,2026-07-16,In Progress,P3,User Group,Operations,72,57,0,29,5.1,1,REL-01
+HTS-0938,Advisor Portal,2026-07-16,Open,P2,Service Center,Financial Advisors,24,58,1,50,5.6,0,REL-08
+HTS-0939,Client Reporting,2026-07-14,Testing,P3,Service Center,Public Finance,72,96,1,126,5.3,0,REL-04
+HTS-0940,Compliance Workflow,2026-07-16,In Progress,P4,Service Center,Sales Support,168,51,0,79,6.3,1,REL-04
+HTS-0941,Data Entitlements,2026-07-16,In Progress,P4,Release Testing,Operations,168,71,0,39,5.9,0,REL-03
+HTS-0942,Trade Support,2026-07-15,In Progress,P3,Service Center,Financial Advisors,72,87,3,114,2.5,0,REL-06
+HTS-0943,Compliance Workflow,2026-07-17,Testing,P1,User Group,Compliance,8,24,1,121,5.4,0,REL-02
+HTS-0944,Client Reporting,2026-07-17,Testing,P3,Release Testing,Compliance,72,40,1,139,2.4,0,REL-01
+HTS-0945,Public Finance CRM,2026-07-15,In Progress,P2,Service Center,Operations,24,78,1,104,6.4,0,REL-03
+HTS-0946,Advisor Portal,2026-07-18,In Progress,P3,User Group,Compliance,72,11,0,82,3.9,1,REL-01
+HTS-0947,Advisor Portal,2026-07-16,In Progress,P3,Service Center,Operations,72,49,1,106,5.9,0,REL-06
+HTS-0948,Advisor Portal,2026-07-16,In Progress,P2,Release Testing,Compliance,24,62,1,16,3.5,0,REL-02
+HTS-0949,Public Finance CRM,2026-07-13,Testing,P3,Email,Sales Support,72,131,5,31,5.8,1,REL-07
+HTS-0950,Compliance Workflow,2026-07-17,Testing,P4,Service Center,Operations,168,34,1,13,2.7,0,REL-06
+HTS-0951,Client Reporting,2026-07-15,In Progress,P2,Service Center,Operations,24,76,1,48,3.5,0,REL-08
+HTS-0952,Public Finance CRM,2026-07-15,Testing,P3,Service Center,Compliance,72,83,0,24,4.6,0,REL-03
+HTS-0953,Client Reporting,2026-07-16,Testing,P3,Service Center,Sales Support,72,52,1,13,2.5,0,REL-03
+HTS-0954,Advisor Portal,2026-07-14,In Progress,P3,Release Testing,Operations,72,103,0,166,5.6,0,REL-01
+HTS-0955,Data Entitlements,2026-07-14,Closed,P2,Vendor,Compliance,24,110,4,52,4.8,1,REL-04
+HTS-0956,Trade Support,2026-07-18,Testing,P3,Service Center,Financial Advisors,72,12,0,174,2.3,0,REL-03
+HTS-0957,Advisor Portal,2026-07-17,Testing,P3,User Group,Public Finance,72,36,0,156,5.8,0,REL-02
+HTS-0958,Advisor Portal,2026-07-18,Vendor Pending,P2,Email,Sales Support,24,7,2,153,4.1,0,REL-07
+HTS-0959,Public Finance CRM,2026-07-16,In Progress,P3,Service Center,Compliance,72,69,3,130,3.1,0,REL-07
+HTS-0960,Advisor Portal,2026-07-18,Vendor Pending,P3,User Group,Public Finance,72,9,0,138,3.8,0,REL-06
+HTS-0961,Compliance Workflow,2026-07-16,Open,P3,Service Center,Compliance,72,57,0,8,5.6,0,REL-08
+HTS-0962,Client Reporting,2026-07-17,Vendor Pending,P4,Vendor,Operations,168,46,0,57,6.8,0,REL-03
+HTS-0963,Client Reporting,2026-07-14,Vendor Pending,P4,Service Center,Financial Advisors,168,117,0,156,3.4,0,REL-02
+HTS-0964,Data Entitlements,2026-07-15,In Progress,P3,Service Center,Compliance,72,94,0,106,4.4,0,REL-08
+HTS-0965,Client Reporting,2026-07-18,Vendor Pending,P2,User Group,Operations,24,2,0,170,4.1,0,REL-04
+HTS-0966,Compliance Workflow,2026-07-15,In Progress,P3,Service Center,Sales Support,72,80,2,8,3.6,0,REL-08
+HTS-0967,Client Reporting,2026-07-15,Vendor Pending,P3,Vendor,Financial Advisors,72,76,1,64,2.9,1,REL-04
+HTS-0968,Trade Support,2026-07-17,Vendor Pending,P3,Service Center,Sales Support,72,38,1,64,5.8,1,REL-02
+HTS-0969,Trade Support,2026-07-12,Open,P4,Email,Operations,168,150,0,11,5.3,0,REL-08
+HTS-0970,Public Finance CRM,2026-07-18,Closed,P4,Service Center,Sales Support,168,15,1,139,5.5,0,REL-01
+HTS-0971,Advisor Portal,2026-07-16,In Progress,P3,Email,Sales Support,72,49,1,115,4.1,0,REL-03
+HTS-0972,Advisor Portal,2026-07-14,Testing,P4,Service Center,Public Finance,168,114,0,65,5.8,0,REL-02
+HTS-0973,Data Entitlements,2026-07-15,In Progress,P3,Service Center,Public Finance,72,95,0,179,4.2,1,REL-05
+HTS-0974,Trade Support,2026-07-15,In Progress,P3,Service Center,Public Finance,72,75,1,77,3.5,0,REL-05
+HTS-0975,Data Entitlements,2026-07-16,Testing,P3,Service Center,Sales Support,72,54,0,101,3.3,0,REL-04
+HTS-0976,Compliance Workflow,2026-07-17,In Progress,P3,User Group,Financial Advisors,72,45,5,167,2.8,1,REL-06
+HTS-0977,Data Entitlements,2026-07-17,Open,P3,Service Center,Financial Advisors,72,47,1,100,2.2,1,REL-06
+HTS-0978,Compliance Workflow,2026-07-17,Testing,P2,Email,Financial Advisors,24,29,0,120,4.8,0,REL-01
+HTS-0979,Compliance Workflow,2026-07-12,Closed,P4,Email,Public Finance,168,155,1,105,5.0,1,REL-02
+HTS-0980,Advisor Portal,2026-07-16,In Progress,P3,Service Center,Financial Advisors,72,66,0,49,5.3,0,REL-04
+HTS-0981,Compliance Workflow,2026-07-14,In Progress,P2,Service Center,Financial Advisors,24,102,2,19,6.4,0,REL-05
+HTS-0982,Compliance Workflow,2026-07-17,In Progress,P2,Service Center,Operations,24,31,0,165,2.4,0,REL-08
+HTS-0983,Trade Support,2026-07-17,Vendor Pending,P2,Service Center,Operations,24,28,1,31,5.5,0,REL-04
+HTS-0984,Advisor Portal,2026-07-15,In Progress,P3,Service Center,Public Finance,72,83,1,48,3.6,0,REL-05
+HTS-0985,Trade Support,2026-07-17,In Progress,P4,User Group,Sales Support,168,38,0,115,2.6,0,REL-03
+HTS-0986,Client Reporting,2026-07-17,In Progress,P3,Service Center,Compliance,72,40,1,27,6.4,0,REL-03
+HTS-0987,Public Finance CRM,2026-07-18,In Progress,P2,Service Center,Sales Support,24,19,1,178,3.5,0,REL-03
+HTS-0988,Trade Support,2026-07-17,Closed,P3,User Group,Financial Advisors,72,28,0,135,6.7,0,REL-07
+HTS-0989,Client Reporting,2026-07-17,Closed,P4,Vendor,Public Finance,168,35,0,88,5.5,1,REL-06
+HTS-0990,Client Reporting,2026-07-16,Open,P3,Release Testing,Operations,72,52,4,93,5.1,0,REL-08
+HTS-0991,Trade Support,2026-07-18,Vendor Pending,P4,Service Center,Public Finance,168,7,0,112,5.8,0,REL-04
+HTS-0992,Public Finance CRM,2026-07-15,Open,P4,Service Center,Public Finance,168,79,2,154,4.3,1,REL-01
+HTS-0993,Data Entitlements,2026-07-16,In Progress,P4,Service Center,Sales Support,168,48,1,18,2.6,0,REL-05
+HTS-0994,Client Reporting,2026-07-16,Open,P3,Email,Public Finance,72,53,5,108,6.0,1,REL-05
+HTS-0995,Public Finance CRM,2026-07-16,Vendor Pending,P3,Email,Public Finance,72,70,1,77,5.3,0,REL-02
+HTS-0996,Public Finance CRM,2026-07-14,Closed,P4,Service Center,Financial Advisors,168,97,0,122,3.2,0,REL-04
+HTS-0997,Data Entitlements,2026-07-14,Closed,P3,Service Center,Compliance,72,98,1,127,5.9,1,REL-01
+HTS-0998,Client Reporting,2026-07-16,Closed,P4,Release Testing,Public Finance,168,63,2,128,3.4,0,REL-02
+HTS-0999,Advisor Portal,2026-07-16,In Progress,P3,Email,Operations,72,71,1,122,5.0,1,REL-02
+HTS-1000,Client Reporting,2026-07-16,Closed,P4,Release Testing,Financial Advisors,168,52,1,21,3.0,0,REL-08
+HTS-1001,Client Reporting,2026-07-15,Closed,P3,Service Center,Public Finance,72,95,0,102,2.2,0,REL-07
+HTS-1002,Public Finance CRM,2026-07-12,In Progress,P2,User Group,Financial Advisors,24,161,2,150,6.4,1,REL-03
+HTS-1003,Advisor Portal,2026-07-18,Open,P2,User Group,Operations,24,23,2,141,3.7,0,REL-06
+HTS-1004,Trade Support,2026-07-15,In Progress,P4,Service Center,Financial Advisors,168,87,2,9,2.7,1,REL-08
+HTS-1005,Trade Support,2026-07-11,In Progress,P2,Service Center,Compliance,24,170,0,100,4.9,0,REL-03
+HTS-1006,Trade Support,2026-07-15,Testing,P3,Service Center,Compliance,72,73,2,94,5.6,0,REL-04
+HTS-1007,Client Reporting,2026-07-18,In Progress,P2,Service Center,Compliance,24,17,0,100,5.9,0,REL-02
+HTS-1008,Public Finance CRM,2026-07-16,Open,P3,Email,Compliance,72,53,3,7,6.6,0,REL-06
+HTS-1009,Trade Support,2026-07-18,Testing,P1,Email,Operations,8,4,1,56,6.2,0,REL-06
+HTS-1010,Trade Support,2026-07-13,Closed,P3,Release Testing,Financial Advisors,72,141,0,31,5.8,0,REL-04
+HTS-1011,Public Finance CRM,2026-07-15,Vendor Pending,P3,Service Center,Operations,72,81,0,123,2.3,1,REL-07
+HTS-1012,Compliance Workflow,2026-07-17,Open,P1,Service Center,Public Finance,8,46,3,26,4.1,0,REL-08
+HTS-1013,Client Reporting,2026-07-16,Open,P3,User Group,Operations,72,51,0,123,6.3,0,REL-06
+HTS-1014,Data Entitlements,2026-07-17,Open,P3,Service Center,Sales Support,72,45,0,59,4.5,1,REL-03
+HTS-1015,Client Reporting,2026-07-18,In Progress,P2,User Group,Financial Advisors,24,16,0,50,5.5,0,REL-08
+HTS-1016,Public Finance CRM,2026-07-16,Testing,P3,Service Center,Compliance,72,64,0,40,4.8,1,REL-01
+HTS-1017,Trade Support,2026-07-13,Closed,P3,Service Center,Operations,72,130,3,63,2.9,0,REL-08
+HTS-1018,Compliance Workflow,2026-07-17,In Progress,P3,Release Testing,Compliance,72,43,1,142,4.2,0,REL-06
+HTS-1019,Compliance Workflow,2026-07-13,In Progress,P3,Service Center,Public Finance,72,133,2,70,2.4,0,REL-01
+HTS-1020,Client Reporting,2026-07-18,Testing,P4,Service Center,Public Finance,168,21,0,91,3.5,0,REL-02
+HTS-1021,Compliance Workflow,2026-07-13,Open,P4,Vendor,Financial Advisors,168,140,2,53,5.5,0,REL-03
+HTS-1022,Compliance Workflow,2026-07-16,In Progress,P3,Service Center,Sales Support,72,65,0,43,2.6,0,REL-04
+HTS-1023,Client Reporting,2026-07-17,Closed,P4,Service Center,Financial Advisors,168,38,2,79,2.1,0,REL-05
+HTS-1024,Advisor Portal,2026-07-14,Open,P2,Service Center,Financial Advisors,24,106,1,44,5.7,1,REL-04
+HTS-1025,Compliance Workflow,2026-07-17,Open,P3,Vendor,Operations,72,25,0,73,2.8,0,REL-03
+HTS-1026,Public Finance CRM,2026-07-18,Open,P2,Service Center,Public Finance,24,23,1,163,4.9,0,REL-08
+HTS-1027,Client Reporting,2026-07-18,Open,P3,Release Testing,Public Finance,72,21,3,13,3.9,1,REL-02
+HTS-1028,Data Entitlements,2026-07-16,Testing,P3,Email,Public Finance,72,52,0,29,2.5,0,REL-06
+HTS-1029,Advisor Portal,2026-07-14,Vendor Pending,P2,Vendor,Public Finance,24,97,3,73,6.4,0,REL-06
+HTS-1030,Advisor Portal,2026-07-12,Open,P3,Email,Compliance,72,149,0,129,3.1,0,REL-05
+HTS-1031,Compliance Workflow,2026-07-13,Vendor Pending,P2,User Group,Sales Support,24,122,1,173,3.9,0,REL-02
+HTS-1032,Public Finance CRM,2026-07-18,Vendor Pending,P3,Email,Sales Support,72,20,1,103,5.5,0,REL-08
+HTS-1033,Client Reporting,2026-07-15,Testing,P4,User Group,Compliance,168,72,1,9,3.1,0,REL-06
+HTS-1034,Public Finance CRM,2026-07-14,In Progress,P2,User Group,Public Finance,24,105,5,66,3.4,1,REL-06
+HTS-1035,Public Finance CRM,2026-07-14,Testing,P3,Email,Financial Advisors,72,118,3,25,3.7,0,REL-04
+HTS-1036,Advisor Portal,2026-07-17,Vendor Pending,P3,Service Center,Compliance,72,39,1,100,3.1,1,REL-08
+HTS-1037,Trade Support,2026-07-13,Closed,P3,Service Center,Operations,72,133,0,82,6.4,0,REL-05
+HTS-1038,Data Entitlements,2026-07-16,Open,P4,Service Center,Sales Support,168,66,3,172,4.0,0,REL-06
+HTS-1039,Advisor Portal,2026-07-16,Testing,P3,Email,Public Finance,72,49,1,24,3.6,0,REL-01
+HTS-1040,Advisor Portal,2026-07-17,In Progress,P2,Vendor,Financial Advisors,24,24,0,60,4.2,1,REL-03
+HTS-1041,Client Reporting,2026-07-15,Vendor Pending,P1,Release Testing,Financial Advisors,8,78,0,135,4.8,0,REL-07
+HTS-1042,Public Finance CRM,2026-07-14,In Progress,P3,Service Center,Financial Advisors,72,99,0,94,2.5,0,REL-06
+HTS-1043,Compliance Workflow,2026-07-16,Testing,P4,Service Center,Operations,168,66,2,157,3.2,0,REL-04
+HTS-1044,Compliance Workflow,2026-07-15,In Progress,P3,User Group,Operations,72,72,4,46,2.2,0,REL-01
+HTS-1045,Advisor Portal,2026-07-16,Testing,P4,Service Center,Public Finance,168,58,1,10,5.5,0,REL-03
+HTS-1046,Compliance Workflow,2026-07-17,Testing,P4,Service Center,Financial Advisors,168,30,1,133,6.5,0,REL-06
+HTS-1047,Advisor Portal,2026-07-14,Vendor Pending,P4,Service Center,Financial Advisors,168,113,2,66,6.7,0,REL-03
+HTS-1048,Data Entitlements,2026-07-18,Open,P4,Service Center,Compliance,168,9,1,178,3.9,0,REL-08
+HTS-1049,Public Finance CRM,2026-07-17,Open,P2,Service Center,Public Finance,24,43,1,50,3.3,0,REL-06
+HTS-1050,Advisor Portal,2026-07-15,In Progress,P4,Service Center,Sales Support,168,82,0,145,2.4,0,REL-03
+HTS-1051,Compliance Workflow,2026-07-17,Vendor Pending,P1,Vendor,Financial Advisors,8,41,0,161,4.4,0,REL-06
+HTS-1052,Public Finance CRM,2026-07-15,Vendor Pending,P2,Release Testing,Financial Advisors,24,93,1,116,2.2,0,REL-02
+HTS-1053,Public Finance CRM,2026-07-17,Testing,P4,User Group,Financial Advisors,168,40,3,130,3.0,0,REL-06
+HTS-1054,Advisor Portal,2026-07-16,Vendor Pending,P4,Service Center,Financial Advisors,168,48,0,64,6.6,0,REL-07
+HTS-1055,Client Reporting,2026-07-18,Testing,P1,Release Testing,Sales Support,8,13,0,136,2.5,0,REL-07
+HTS-1056,Trade Support,2026-07-15,In Progress,P4,Service Center,Compliance,168,84,0,99,2.5,0,REL-02
+HTS-1057,Client Reporting,2026-07-16,Closed,P3,Email,Operations,72,59,1,13,3.0,0,REL-03
+HTS-1058,Advisor Portal,2026-07-14,Closed,P3,Service Center,Public Finance,72,108,4,16,6.0,0,REL-07
+HTS-1059,Public Finance CRM,2026-07-16,Testing,P3,Service Center,Financial Advisors,72,64,0,50,6.3,0,REL-02
+HTS-1060,Compliance Workflow,2026-07-16,Open,P3,Release Testing,Financial Advisors,72,60,3,32,6.4,0,REL-04
+HTS-1061,Trade Support,2026-07-17,In Progress,P3,Vendor,Operations,72,26,0,156,3.3,0,REL-07
+HTS-1062,Public Finance CRM,2026-07-14,Open,P3,Vendor,Public Finance,72,100,0,5,4.1,0,REL-05
+HTS-1063,Public Finance CRM,2026-07-17,Vendor Pending,P4,User Group,Compliance,168,28,0,117,2.7,0,REL-02
+HTS-1064,Client Reporting,2026-07-18,Open,P3,Service Center,Financial Advisors,72,20,4,68,6.6,0,REL-07
+HTS-1065,Public Finance CRM,2026-07-17,Open,P3,Service Center,Financial Advisors,72,37,4,145,6.1,0,REL-01
+HTS-1066,Client Reporting,2026-07-18,Open,P3,Email,Operations,72,19,0,160,3.8,0,REL-08
+HTS-1067,Trade Support,2026-07-18,Testing,P3,Email,Operations,72,11,1,42,3.7,1,REL-03
+HTS-1068,Client Reporting,2026-07-17,In Progress,P3,Release Testing,Sales Support,72,29,0,50,5.0,0,REL-08
+HTS-1069,Compliance Workflow,2026-07-16,In Progress,P1,User Group,Financial Advisors,8,54,1,84,2.4,0,REL-07
+HTS-1070,Data Entitlements,2026-07-18,Closed,P3,Service Center,Financial Advisors,72,6,3,178,3.2,0,REL-01
+HTS-1071,Compliance Workflow,2026-07-17,In Progress,P4,Service Center,Compliance,168,31,4,168,3.9,0,REL-07
+HTS-1072,Compliance Workflow,2026-07-14,In Progress,P3,Release Testing,Compliance,72,111,1,42,4.2,1,REL-04
+HTS-1073,Client Reporting,2026-07-15,Closed,P2,Release Testing,Public Finance,24,83,2,113,5.9,0,REL-08
+HTS-1074,Client Reporting,2026-07-11,Open,P3,User Group,Financial Advisors,72,181,4,110,6.3,0,REL-08
+HTS-1075,Public Finance CRM,2026-07-16,Vendor Pending,P3,Service Center,Sales Support,72,48,0,58,5.4,0,REL-06
+HTS-1076,Client Reporting,2026-07-16,In Progress,P4,Service Center,Compliance,168,68,0,30,4.7,0,REL-07
+HTS-1077,Trade Support,2026-07-17,Vendor Pending,P2,Release Testing,Compliance,24,30,0,116,2.2,0,REL-03
+HTS-1078,Trade Support,2026-07-14,Vendor Pending,P3,User Group,Financial Advisors,72,110,0,84,4.3,1,REL-03
+HTS-1079,Compliance Workflow,2026-07-16,In Progress,P4,User Group,Operations,168,59,1,19,2.5,0,REL-01
+HTS-1080,Public Finance CRM,2026-07-18,Open,P3,Service Center,Financial Advisors,72,17,0,19,3.8,1,REL-08
+HTS-1081,Advisor Portal,2026-07-14,Testing,P3,Service Center,Financial Advisors,72,98,0,33,4.6,0,REL-03
+HTS-1082,Public Finance CRM,2026-07-15,Testing,P3,Release Testing,Operations,72,81,1,40,6.4,0,REL-01
+HTS-1083,Trade Support,2026-07-17,Testing,P2,User Group,Public Finance,24,47,4,152,4.8,0,REL-01
+HTS-1084,Public Finance CRM,2026-07-11,Open,P4,Service Center,Public Finance,168,186,1,41,2.6,1,REL-04
+HTS-1085,Advisor Portal,2026-07-17,In Progress,P4,Release Testing,Compliance,168,41,0,154,4.1,0,REL-05
+HTS-1086,Advisor Portal,2026-07-17,In Progress,P2,Release Testing,Operations,24,36,1,81,3.3,1,REL-06
+HTS-1087,Client Reporting,2026-07-14,Vendor Pending,P1,Service Center,Operations,8,111,0,162,2.2,0,REL-05
+HTS-1088,Data Entitlements,2026-07-18,In Progress,P3,Service Center,Sales Support,72,10,3,111,4.0,0,REL-06
+HTS-1089,Public Finance CRM,2026-07-16,Open,P3,Service Center,Operations,72,69,2,84,6.1,1,REL-01
+HTS-1090,Trade Support,2026-07-18,Vendor Pending,P4,Service Center,Operations,168,15,3,5,5.5,0,REL-06
+HTS-1091,Data Entitlements,2026-07-15,Closed,P4,Release Testing,Public Finance,168,79,2,30,5.0,0,REL-03
+HTS-1092,Advisor Portal,2026-07-18,In Progress,P2,User Group,Financial Advisors,24,17,0,23,3.9,0,REL-04
+HTS-1093,Compliance Workflow,2026-07-17,Testing,P3,Service Center,Sales Support,72,28,3,18,4.2,0,REL-02
+HTS-1094,Compliance Workflow,2026-07-17,Vendor Pending,P2,Service Center,Operations,24,28,2,22,3.0,1,REL-04
+HTS-1095,Compliance Workflow,2026-07-15,In Progress,P2,User Group,Financial Advisors,24,83,1,91,5.6,0,REL-05
+HTS-1096,Client Reporting,2026-07-17,In Progress,P3,Email,Sales Support,72,25,2,113,2.5,0,REL-08
+HTS-1097,Public Finance CRM,2026-07-15,Testing,P1,User Group,Operations,8,74,1,84,4.2,0,REL-08
+HTS-1098,Compliance Workflow,2026-07-17,Closed,P3,Service Center,Sales Support,72,38,0,179,3.8,0,REL-08
+HTS-1099,Client Reporting,2026-07-13,In Progress,P3,Release Testing,Compliance,72,129,0,101,4.1,0,REL-03
+HTS-1100,Trade Support,2026-07-17,In Progress,P4,Service Center,Financial Advisors,168,47,0,50,3.1,0,REL-08

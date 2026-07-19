@@ -5,10 +5,14 @@ import random
 from datetime import date, timedelta
 from pathlib import Path
 
+import matplotlib.pyplot as plt
+import pandas as pd
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = ROOT / "analysis" / "outputs"
+IMAGES = ROOT / "docs" / "images"
 RNG = random.Random(42)
 
 APPLICATIONS = [
@@ -40,7 +44,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 def generate_support_issues() -> list[dict]:
     rows = []
     today = date(2026, 7, 18)
-    for i in range(1, 421):
+    for i in range(1, 1101):
         severity = RNG.choices(["P1", "P2", "P3", "P4"], weights=[5, 20, 50, 25])[0]
         sla_hours = {"P1": 8, "P2": 24, "P3": 72, "P4": 168}[severity]
         hours_open = max(2, int(RNG.gammavariate(2.2, 28)))
@@ -68,7 +72,7 @@ def generate_support_issues() -> list[dict]:
 
 def generate_requirements(issues: list[dict]) -> list[dict]:
     rows = []
-    for i in range(1, 61):
+    for i in range(1, 121):
         source_count = RNG.randint(2, 18)
         rows.append(
             {
@@ -86,7 +90,7 @@ def generate_requirements(issues: list[dict]) -> list[dict]:
 
 def generate_tests() -> list[dict]:
     rows = []
-    for i in range(1, 97):
+    for i in range(1, 181):
         pass_rate = round(RNG.uniform(0.72, 0.99), 3)
         open_defects = max(0, int((1 - pass_rate) * RNG.randint(8, 35)))
         rows.append(
@@ -119,12 +123,14 @@ def generate_user_groups() -> list[dict]:
 
 def generate_vendors() -> list[dict]:
     rows = []
-    for i, app in enumerate(APPLICATIONS, 1):
+    dependency_types = ["Data Feed", "API", "Defect Fix", "Access", "Release Signoff"]
+    for i in range(1, 13):
+        app = APPLICATIONS[(i - 1) % len(APPLICATIONS)]
         rows.append(
             {
                 "vendor_id": f"VEND-{i:02d}",
                 "application": app,
-                "dependency_type": RNG.choice(["Data Feed", "API", "Defect Fix", "Access", "Release Signoff"]),
+                "dependency_type": dependency_types[(i - 1) % len(dependency_types)],
                 "avg_turnaround_hours": RNG.randint(18, 160),
                 "open_items": RNG.randint(1, 14),
                 "risk_level": RNG.choices(["Low", "Medium", "High", "Critical"], weights=[20, 35, 32, 13])[0],
@@ -183,6 +189,81 @@ def write_outputs(issues: list[dict], tests: list[dict]) -> None:
     write_csv(OUT / "kpi_snapshot.csv", kpis)
 
 
+def write_evidence_images() -> None:
+    IMAGES.mkdir(parents=True, exist_ok=True)
+    issues = pd.read_csv(OUT / "ranked_issue_queue.csv")
+    releases = pd.read_csv(OUT / "release_readiness_summary.csv")
+    top_blockers = pd.read_csv(OUT / "top_25_upgrade_blockers.csv")
+
+    app_summary = (
+        issues.groupby("application")
+        .agg(
+            avg_triage_score=("triage_score", "mean"),
+            sla_breach_rate=("sla_breached", "mean"),
+            issue_count=("issue_id", "count"),
+        )
+        .sort_values("avg_triage_score", ascending=True)
+    )
+
+    plt.style.use("seaborn-v0_8-whitegrid")
+    fig, ax = plt.subplots(figsize=(10, 6))
+    colors = ["#315c74" if value < app_summary["avg_triage_score"].max() else "#b04a35" for value in app_summary["avg_triage_score"]]
+    app_summary["avg_triage_score"].plot(kind="barh", ax=ax, color=colors)
+    ax.set_title("Average Triage Score by Supported Application", fontsize=15, weight="bold")
+    ax.set_xlabel("Average triage score")
+    ax.set_ylabel("")
+    for index, value in enumerate(app_summary["avg_triage_score"]):
+        ax.text(value + 0.6, index, f"{value:.1f}", va="center", fontsize=9)
+    fig.tight_layout()
+    fig.savefig(IMAGES / "triage-score-by-application.png", dpi=180)
+    plt.close(fig)
+
+    heatmap_data = releases.set_index("release_id")[["avg_pass_rate", "open_defects", "not_ready_tests"]]
+    normalized = heatmap_data.copy()
+    normalized["open_defects"] = normalized["open_defects"] / max(1, normalized["open_defects"].max())
+    normalized["not_ready_tests"] = normalized["not_ready_tests"] / max(1, normalized["not_ready_tests"].max())
+
+    fig, ax = plt.subplots(figsize=(9, 5))
+    image = ax.imshow(normalized, cmap="YlOrRd", aspect="auto")
+    ax.set_title("Release Readiness Risk Matrix", fontsize=15, weight="bold")
+    ax.set_xticks(range(len(normalized.columns)), ["Pass rate", "Open defects", "Tests not ready"])
+    ax.set_yticks(range(len(normalized.index)), normalized.index)
+    for row in range(len(heatmap_data.index)):
+        for col, column in enumerate(heatmap_data.columns):
+            value = heatmap_data.iloc[row, col]
+            label = f"{value:.3f}" if column == "avg_pass_rate" else str(int(value))
+            ax.text(col, row, label, ha="center", va="center", color="#222", fontsize=9)
+    fig.colorbar(image, ax=ax, fraction=0.046, pad=0.04)
+    fig.tight_layout()
+    fig.savefig(IMAGES / "release-readiness-risk-matrix.png", dpi=180)
+    plt.close(fig)
+
+    table_cols = ["issue_id", "application", "severity", "status", "triage_score", "sla_breached"]
+    table_data = top_blockers[table_cols].head(10)
+    fig, ax = plt.subplots(figsize=(12, 4.8))
+    ax.axis("off")
+    table = ax.table(
+        cellText=table_data.values,
+        colLabels=["Issue", "Application", "Severity", "Status", "Score", "SLA"],
+        loc="center",
+        cellLoc="left",
+        colLoc="left",
+    )
+    table.auto_set_font_size(False)
+    table.set_fontsize(9)
+    table.scale(1, 1.45)
+    for (row, col), cell in table.get_celld().items():
+        if row == 0:
+            cell.set_text_props(weight="bold", color="white")
+            cell.set_facecolor("#315c74")
+        elif row % 2 == 0:
+            cell.set_facecolor("#f2f5f7")
+    ax.set_title("Top Upgrade Blockers for Release Review", fontsize=15, weight="bold", pad=16)
+    fig.tight_layout()
+    fig.savefig(IMAGES / "top-upgrade-blockers.png", dpi=180)
+    plt.close(fig)
+
+
 def main() -> None:
     issues = generate_support_issues()
     requirements = generate_requirements(issues)
@@ -196,6 +277,7 @@ def main() -> None:
     write_csv(DATA / "user_groups.csv", user_groups)
     write_csv(DATA / "vendor_dependencies.csv", vendors)
     write_outputs(issues, tests)
+    write_evidence_images()
 
 
 if __name__ == "__main__":

@@ -1,7 +1,13 @@
 vendor_id,application,dependency_type,avg_turnaround_hours,open_items,risk_level
-VEND-01,Advisor Portal,Access,139,12,Low
-VEND-02,Trade Support,API,87,9,Medium
-VEND-03,Public Finance CRM,API,62,10,High
-VEND-04,Client Reporting,Release Signoff,64,12,Medium
-VEND-05,Compliance Workflow,Data Feed,95,6,Medium
-VEND-06,Data Entitlements,Release Signoff,78,4,Low
+VEND-01,Advisor Portal,Data Feed,133,4,Low
+VEND-02,Trade Support,API,108,1,Critical
+VEND-03,Public Finance CRM,Defect Fix,113,11,Medium
+VEND-04,Client Reporting,Access,19,6,High
+VEND-05,Compliance Workflow,Release Signoff,39,3,High
+VEND-06,Data Entitlements,Data Feed,151,9,High
+VEND-07,Advisor Portal,API,52,8,Medium
+VEND-08,Trade Support,Defect Fix,159,12,High
+VEND-09,Public Finance CRM,Access,48,10,High
+VEND-10,Client Reporting,Release Signoff,99,4,Medium
+VEND-11,Compliance Workflow,Data Feed,126,5,Low
+VEND-12,Data Entitlements,API,45,1,Critical

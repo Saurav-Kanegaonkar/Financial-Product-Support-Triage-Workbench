@@ -1,12 +1,13 @@
 # Executive Findings
 
-The generated support queue creates 420 synthetic application issues across six financial product surfaces. The highest-scoring issues concentrate in onboarding, advisor portal, and reporting workflows where SLA breach risk, recurrence, and release readiness overlap.
+The generated support queue creates 1,100 synthetic application issues across six financial product surfaces. The highest-scoring issues concentrate where SLA breach risk, recurrence, vendor blockers, customer effort, and release readiness overlap.
 
 Key readouts:
 
 - `analysis/outputs/ranked_issue_queue.csv` identifies the top 25 upgrade blockers for Product Analyst review.
 - `analysis/outputs/release_readiness_summary.csv` flags releases with lower pass rates and remaining open defects.
 - `analysis/outputs/kpi_snapshot.csv` summarizes SLA breach rate, average hours open, vendor-blocked share, and customer effort.
+- `docs/images/` contains rendered evidence images for application triage pressure, release readiness risk, and the top upgrade blocker queue.
 
 Recommended operating motion:
 
