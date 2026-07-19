@@ -4,7 +4,7 @@
 
 Financial product support teams need a defensible way to decide which application issues deserve attention first when Service Center tickets, user-group feedback, vendor dependencies, release testing, and product requirements all compete for the same analyst capacity. The hard part is not building another dashboard; it is making the prioritization logic inspectable enough that operations, technology, vendors, and product owners can challenge it in a review meeting.
 
-Repository: https://github.com/Saurav-Kanegaonkar/FinancialProductSupportTriageWorkbench
+Repository: https://github.com/Saurav-Kanegaonkar/Financial-Product-Support-Triage-Workbench
 
 ## What This Project Is
 
